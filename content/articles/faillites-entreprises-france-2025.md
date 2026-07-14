@@ -71,7 +71,7 @@ Nos experts analysent vos indicateurs de risque et vous proposent des scénarios
 - [Banque de France - Statistiques des défaillances](https://www.banque-france.fr)
 - [Greffes des Tribunaux de Commerce - Rapports annuels](https://www.infogreffe.fr)
 - [INSEE - Indice de santé des PME](https://www.insee.fr)
-- [Observatoire BritFlow - Données agrégées 2024](https://britflow.com/observatoire)
+- [Observatoire BritFlow - Données agrégées 2024](https://societeanglaise.fr/observatoire)
 
 ---
 

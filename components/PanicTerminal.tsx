@@ -89,7 +89,7 @@ const PanicTerminal: React.FC = () => {
             <div className="mt-10 pt-8 border-t border-zinc-800 flex flex-col md:flex-row gap-6 items-center justify-between">
               <div className="flex flex-col gap-1">
                 <p className="text-[10px] text-white font-bold uppercase tracking-widest">Réponse certifiée par BritFlow IA • Solution Souveraine</p>
-                <p className="text-[8px] text-slate-300 font-mono">URL UNIQUE SEO : britflow.com/#panic/{encodeURIComponent(query).slice(0, 20)}...</p>
+                <p className="text-[8px] text-slate-300 font-mono">URL UNIQUE SEO : societeanglaise.fr/outils/panic-vault?q={encodeURIComponent(query).slice(0, 20)}...</p>
               </div>
               <a
                 href={getWhatsAppLink(`Bonjour, j'aimerais appliquer la structure BritFlow d'urgence suite à ma question : "${query}".`)}

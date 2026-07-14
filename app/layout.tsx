@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Simulez vos gains fiscaux, auditez votre substance et créez votre société Limited à Londres en toute sécurité. Le guide ultime pour les entrepreneurs français.",
+  alternates: { canonical: SITE_URL },
   openGraph: {
     title: "BritFlow - L'Expertise Fiscale UK pour Français",
     description:

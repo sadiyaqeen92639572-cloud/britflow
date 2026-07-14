@@ -1,8 +1,7 @@
 "use client";
 
 
-import React, { useState, useMemo } from 'react';
-import { useSearchParams } from 'next/navigation';
+import React, { useState, useMemo, useEffect } from 'react';
 import { getWhatsAppLink } from '../services/whatsapp';
 import EmbedTool from './EmbedTool';
 import SEOJsonLd from './SEOJsonLd';
@@ -10,9 +9,13 @@ import SEOMethodologyBlock from './SEOMethodologyBlock';
 import SEOBotContext from './SEOBotContext';
 
 const NomadScanner: React.FC = () => {
-  const searchParams = useSearchParams();
-  const modeParam = searchParams.get('mode');
-  const mode: 'default' | 'exit' = (modeParam === 'exit' || modeParam === 'exit-tax') ? 'exit' : 'default';
+  // See hooks/useModeParam.ts for why this reads window.location in an
+  // effect instead of using useSearchParams() (avoids SSR bailout).
+  const [mode, setMode] = useState<'default' | 'exit'>('default');
+  useEffect(() => {
+    const modeParam = new URLSearchParams(window.location.search).get('mode');
+    if (modeParam === 'exit' || modeParam === 'exit-tax') setMode('exit');
+  }, []);
   const [daysInFrance, setDaysInFrance] = useState(100);
   const [ownsHome, setOwnsHome] = useState(false);
   const [unrealizedGains, setUnrealizedGains] = useState(500000); // For Exit Tax mode

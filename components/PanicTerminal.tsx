@@ -2,22 +2,23 @@
 
 
 import React, { useState, useRef, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { getEmergencySolution } from '../services/aiClient';
 import { getWhatsAppLink } from '../services/whatsapp';
 import FormattedText from './FormattedText';
 
 const PanicTerminal: React.FC = () => {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Gérer l'arrivée directe via URL /outils/panic-vault?q=votre-question
+  // (window.location.search read in an effect, not useSearchParams() — see
+  // hooks/useModeParam.ts for why: avoids forcing SSR bailout on this page)
   useEffect(() => {
-    const urlQuery = searchParams.get('q');
+    const urlQuery = new URLSearchParams(window.location.search).get('q');
     if (urlQuery) {
       setQuery(urlQuery);
       handleSearch(urlQuery);

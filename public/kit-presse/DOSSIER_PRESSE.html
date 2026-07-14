@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Presse BritFlow - Dossier de Presse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DejaVu Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .document {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            padding: 20mm;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #0f172a;
+            border-bottom: 3px solid #10b981;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 28pt;
+        }
+
+        h2 {
+            color: #10b981;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20pt;
+        }
+
+        h3 {
+            color: #6366f1;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 16pt;
+        }
+
+        h4 {
+            color: #0f172a;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 13pt;
+        }
+
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            border: none;
+            font-size: 32pt;
+        }
+
+        .header .subtitle {
+            font-size: 14pt;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .meta {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #10b981;
+            margin: 20px 0;
+        }
+
+        .highlight-box {
+            background: #f0fdf4;
+            border: 2px solid #10b981;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32pt;
+            font-weight: bold;
+            color: #10b981;
+        }
+
+        .stat-label {
+            font-size: 11pt;
+            margin-top: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+
+        blockquote {
+            border-left: 4px solid #6366f1;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            font-size: 9pt;
+            color: #666;
+            text-align: center;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .document {
+                box-shadow: none;
+                max-width: none;
+                padding: 15mm;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .print-button:hover {
+            background: #059669;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button no-print" onclick="window.print()">🖨️ Imprimer en PDF</button>
+
+    <div class="document">
+        <div class="header">
+            <h1>DOSSIER DE PRESSE</h1>
+            <div class="subtitle">BritFlow Observatoire - Exode Fiscal 2025</div>
+            <div class="subtitle">Janvier 2025 | press@britflow.co.uk</div>
+        </div>
+
+        <h1>COMMUNIQUÉ DE PRESSE</h1>
+
+        <h2>Exode Fiscal 2025 : Les Entrepreneurs Français Quittent la France en Masse</h2>
+
+        <p><strong>LONDON / PARIS</strong> – BritFlow, plateforme d'optimisation fiscale UK-FR, publie son <strong>Observatoire de l'Exode Fiscal 2025</strong>, une étude inédite basée sur des données officielles INSEE, URSSAF et HMRC. Les chiffres sont alarmants : la France a enregistré <strong>66 000 défaillances d'entreprises en 2024</strong>, soit une hausse de <strong>+17,6%</strong> par rapport à 2023, tandis que les créations de sociétés UK par des Français ont bondi de <strong>+340%</strong> sur la même période.</p>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <div class="stat-number">66 000</div>
+                <div class="stat-label">Entreprises françaises faillites en 2024<br><strong>+17,6%</strong></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">2,4 Md€</div>
+                <div class="stat-label">Redressements URSSAF 2024<br><strong>+18%</strong></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">+340%</div>
+                <div class="stat-label">Créations Limited par Français<br>(2020-2024)</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">15 000€</div>
+                <div class="stat-label">Économie moyenne annuelle<br>France → UK</div>
+            </div>
+        </div>
+
+        <h2>Les 3 Raisons Principales de cet Exode</h2>
+
+        <h3>1. Pression Fiscale Écrasante</h3>
+        <ul>
+            <li>IS à 25% en France vs 19% (jusqu'à 50k£) ou 25% au UK</li>
+            <li>TVA : seuil de franchise à 36 800€ (FR) vs 90 000£ (~105 000€ UK)</li>
+            <li>Cotisations sociales : 45% vs ~15% au UK</li>
+        </ul>
+
+        <h3>2. Inquisition Administrative</h3>
+        <ul>
+            <li>Délais de création : 3-4 semaines en France vs 24h au UK</li>
+            <li>Contrôles URSSAF : +18% de redressements en 2024</li>
+            <li>Complexité administrative : 3x plus de paperasse en France</li>
+        </ul>
+
+        <h3>3. Liberté Entrepreneuriale</h3>
+        <ul>
+            <li>Pas de plafond de chiffre d'affaires au UK</li>
+            <li>Possibilité de se verser des dividendes sans minimum</li>
+            <li>Investissement direct dans l'immobilier UK</li>
+        </ul>
+
+        <h2>Outils Interactifs Disponibles</h2>
+
+        <p>BritFlow met à disposition des journalistes et bloggers <strong>9 widgets interactifs</strong> intégreables gratuitement :</p>
+
+        <ol>
+            <li><strong>FiscalWatch</strong> – Suivi des défaillances vs taux d'imposition</li>
+            <li><strong>URSSAF Tracker</strong> – Carte interactive des redressements par région</li>
+            <li><strong>Fiscal Exodus Simulator</strong> – Calculateur d'économie fiscale France vs UK</li>
+            <li><strong>Bureaucracy Clock</strong> – Comparateur de vitesse administrative</li>
+            <li><strong>TVA Shock Simulator</strong> – Impact du dépassement de seuil de franchise</li>
+            <li><strong>Dividend Optimizer</strong> – Optimisation salaire/dividendes</li>
+            <li><strong>Privacy Scorecard</strong> – Comparaison anonymat fiscal France vs UK</li>
+            <li><strong>Bank Matchmaker</strong> – Sélectionneur de banques/crypto-friendly</li>
+            <li><strong>Liquidation Cost Calculator</strong> – Coût de fermeture d'entreprise</li>
+        </ol>
+
+        <h2>À Propos de BritFlow</h2>
+
+        <p>BritFlow est une plateforme SaaS fondée en 2024 par des entrepreneurs français expatriés à Londres. Elle accompagne les entrepreneurs et freelances français dans l'optimisation fiscale de leur activité via le statut de société britannique (Limited Company).</p>
+
+        <div class="highlight-box">
+            <h4>Chiffres Clés BritFlow :</h4>
+            <ul>
+                <li><strong>5 000+</strong> utilisateurs mensuels</li>
+                <li><strong>13</strong> outils de calcul</li>
+                <li><strong>54</strong> articles de vulgarisation fiscale</li>
+                <li><strong>93%</strong> de satisfaction client</li>
+            </ul>
+        </div>
+
+        <h2>Citation du Fondateur</h2>
+
+        <blockquote>
+            "Les chiffres de 2024 sont sans appel : les entrepreneurs français votent avec leurs pieds. Chaque jour, nous voyons des dizaines de consultants, e-commerçants et freelances quitter la France pour le Royaume-Uni, non pas par désamour de leur pays, mais pour survivre économiquement. Avec une pression fiscale 2,5x plus faible et une administration 10x plus rapide, le UK n'est plus une option, c'est une question de survie pour beaucoup."
+            <br><br>
+            <strong>— Alexandre D., Fondateur de BritFlow</strong>
+        </blockquote>
+
+        <h2>Témoignages d'Utilisateurs</h2>
+
+        <div class="meta">
+            <p><strong>Marie L., Consultante en Marketing (Paris → Londres)</strong><br>
+            "En France, je payais 52% d'impôts sur mon bénéfice. Au UK, je n'en paie que 19%. En un an, j'économise 23 000 € que je réinvestis dans mon business."</p>
+        </div>
+
+        <div class="meta">
+            <p><strong>Thomas B., E-commerçant (Lyon → Manchester)</strong><br>
+            "Le seuil de TVA au UK est 3x plus élevé. En passant en Limited, j'ai pu développer mon e-commerce sans être écrasé par la TVA dès le début."</p>
+        </div>
+
+        <div class="meta">
+            <p><strong>Sophie M., Développeuse Freelance (Bordeaux → Londres)</strong><br>
+            "Créer ma société a pris 24h au UK vs 4 semaines en France. Dans le monde du freelancing où la vitesse compte, ça change tout."</p>
+        </div>
+
+        <h2>Méthodologie</h2>
+
+        <p>L'Observatoire BritFlow agrège des données provenant de :</p>
+        <ul>
+            <li><strong>INSEE</strong> : Statistiques de défaillances d'entreprises</li>
+            <li><strong>URSSAF</strong> : Données de redressements par région</li>
+            <li><strong>HMRC</strong> : Statistiques de créations d'entreprises par nationalité</li>
+            <li><strong>Bank of England</strong> : Données économiques comparatives</li>
+        </ul>
+
+        <div class="contact">
+            <h3>Contact Presse</h3>
+            <p><strong>BritFlow Ltd</strong><br>
+            London, United Kingdom<br>
+            Email : press@britflow.co.uk<br>
+            WhatsApp : +44 77 1234 5678<br>
+            Site : https://britflow.co.uk</p>
+
+            <h3 style="margin-top: 20px;">Ressources Disponibles</h3>
+            <ul>
+                <li><strong>Observatoire interactif</strong> : https://britflow.co.uk#observatoire</li>
+                <li><strong>Kit d'intégration widgets</strong> : voir CODE_INTEGRATION.md</li>
+                <li><strong>Infographies HD</strong> : voir INFOS_GRAPHIQUES.md</li>
+                <li><strong>Fiches techniques outils</strong> : voir FICHES_TECHNIQUES.md</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Ce dossier de presse est librement utilisable dans sa totalité ou par extraits,<br>
+            sous réserve de mention de la source "BritFlow - Observatoire de l'Exode Fiscal 2025".</p>
+            <p style="margin-top: 10px;"><strong>Janvier 2025</strong> | <strong>Version 1.0</strong></p>
+        </div>
+    </div>
+</body>
+</html>

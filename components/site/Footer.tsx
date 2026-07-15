@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
@@ -8,9 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-8">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <i className="fas fa-bridge text-white"></i>
-              </div>
+              <Image src="/logo.png" alt="BritFlow" width={40} height={40} className="rounded-lg" />
               <span className="text-2xl font-black text-white uppercase tracking-tighter">BRITFLOW</span>
             </div>
             <p className="text-[11px] font-bold leading-relaxed text-slate-500 uppercase">L&apos;autorité de défense en arbitrage fiscal UK-FR. Ingénierie 2.0.</p>

@@ -8,8 +8,8 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-8">
-              <Image src="/logo.png" alt="Societe Anglaise" width={52} height={52} className="rounded-lg" />
+            <div className="flex items-center gap-3 mb-8">
+              <Image src="/logo.png" alt="Societe Anglaise" width={76} height={76} className="rounded-lg" />
               <span className="text-2xl font-black text-white uppercase tracking-tighter">SOCIETE ANGLAISE</span>
             </div>
             <p className="text-[11px] font-bold leading-relaxed text-slate-500 uppercase">L&apos;autorité de défense en arbitrage fiscal UK-FR. Ingénierie 2.0.</p>

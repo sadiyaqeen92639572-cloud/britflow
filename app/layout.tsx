@@ -23,6 +23,22 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "BritFlow",
+  legalName: "Gesmine-Invest Limited",
+  url: SITE_URL,
+  identifier: { "@type": "PropertyValue", propertyID: "UK Company Number", value: "14120136" },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Hardy House, 269 Poynders Gardens",
+    addressLocality: "London",
+    postalCode: "SW4 8PQ",
+    addressCountry: "GB",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -34,6 +50,10 @@ export default function RootLayout({
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-blue-100">

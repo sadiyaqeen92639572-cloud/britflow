@@ -318,7 +318,7 @@ const FiscalExodusSimulator: React.FC<FiscalExodusSimulatorProps> = ({ className
             answer: "Non, une société Limited peut être détenue par des non-résidents. Cependant, la gestion effective doit être structurée pour respecter les règles de substance."
           },
           {
-            question: "Est-ce que BritFlow m'accompagne dans la transition ?",
+            question: "Est-ce que Societe Anglaise m'accompagne dans la transition ?",
             answer: "Oui, nous gérons l'immatriculation, la comptabilité et le conseil stratégique pour que votre passage du modèle FR au modèle UK soit fluide et sécurisé."
           }
         ]}

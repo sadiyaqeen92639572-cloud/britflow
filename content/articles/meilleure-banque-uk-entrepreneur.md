@@ -56,4 +56,4 @@ Le compte bancaire est le poumon de votre entreprise. Ne faites pas l'erreur de 
 **Sources :**
 - Financial Conduct Authority (FCA) Reports 2024
 - Business Banking Survey UK 2025
-- Bank Matchmaker BritFlow Technology
+- Bank Matchmaker Societe Anglaise Technology

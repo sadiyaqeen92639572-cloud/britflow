@@ -167,7 +167,7 @@ const DirectorProtectionHub: React.FC = () => {
             * L'interposition d'une structure UK crée un "Ecran Juridique International" rendant la saisie de parts sociales impossible sans une procédure de Common Law au UK.
           </div>
           <a
-            href={getWhatsAppLink(`Bonjour, je souhaite un audit privé BritFlow concernant ma protection personnelle (${details.title}).`)}
+            href={getWhatsAppLink(`Bonjour, je souhaite un audit privé Societe Anglaise concernant ma protection personnelle (${details.title}).`)}
             target="_blank"
             rel="noopener noreferrer"
             className="whitespace-nowrap bg-white text-emerald-900 font-black px-8 py-4 rounded-xl text-xs uppercase tracking-widest hover:scale-105 transition-all shadow-xl text-center"

@@ -1,4 +1,4 @@
-# 📦 Kit Presse BritFlow - Index
+# 📦 Kit Presse Societe Anglaise - Index
 
 **Version :** 1.0
 **Date :** Janvier 2025
@@ -135,7 +135,7 @@ Utiliser un convertisseur Markdown vers PDF en ligne :
 
 ### Email type :
 ```
-Objet : Kit Presse - BritFlow Observatoire de l'Exode Fiscal 2025
+Objet : Kit Presse - Societe Anglaise Observatoire de l'Exode Fiscal 2025
 
 Bonjour [Nom du journaliste],
 
@@ -158,7 +158,7 @@ demande d'interview.
 Cordialement,
 
 [Votre Nom]
-BritFlow
+Societe Anglaise
 press@britflow.co.uk
 +44 77 1234 5678
 https://britflow.co.uk#observatoire
@@ -184,4 +184,4 @@ https://britflow.co.uk#observatoire
 
 ---
 
-*Kit Presse BritFlow v1.0 - Janvier 2025*
+*Kit Presse Societe Anglaise v1.0 - Janvier 2025*

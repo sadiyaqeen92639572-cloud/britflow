@@ -179,7 +179,7 @@ const NomadScanner: React.FC = () => {
           <a
             href={getWhatsAppLink(mode === 'exit'
               ? `Bonjour, je prépare mon expatriation et souhaite auditer mon risque Exit Tax (Plus-value: ${unrealizedGains}€).`
-              : `Bonjour, mon risque de résidence fiscale BritFlow est ${risk}. Je souhaite sécuriser ma stratégie de nomadisme.`
+              : `Bonjour, mon risque de résidence fiscale Societe Anglaise est ${risk}. Je souhaite sécuriser ma stratégie de nomadisme.`
             )}
             target="_blank"
             rel="noopener noreferrer"

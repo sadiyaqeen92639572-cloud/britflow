@@ -75,7 +75,7 @@ const SciAssetShield: React.FC = () => {
                 </p>
               </div>
               <a
-                href={getWhatsAppLink(`Bonjour, je souhaite sécuriser mon patrimoine immobilier (${propertyValue}€) via une Holding UK BritFlow.`)}
+                href={getWhatsAppLink(`Bonjour, je souhaite sécuriser mon patrimoine immobilier (${propertyValue}€) via une Holding UK Societe Anglaise.`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-slate-900 text-white font-black py-4 rounded-xl shadow-xl hover:scale-[1.02] transition-all uppercase tracking-widest text-[10px] text-center block"

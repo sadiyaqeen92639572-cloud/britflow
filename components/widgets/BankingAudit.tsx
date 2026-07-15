@@ -194,7 +194,7 @@ const BankingAudit: React.FC<BankingAuditProps> = ({ onLoad }) => {
                         },
                         {
                             question: "Puis-je continuer à utiliser mon compte pro FR ?",
-                            answer: "Oui, mais BritFlow conseille d'avoir au moins 50% de sa trésorerie hors de portée d'une saisie administrative française immédiate."
+                            answer: "Oui, mais Societe Anglaise conseille d'avoir au moins 50% de sa trésorerie hors de portée d'une saisie administrative française immédiate."
                         }
                     ]}
                 />

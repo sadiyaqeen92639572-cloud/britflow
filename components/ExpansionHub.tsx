@@ -132,7 +132,7 @@ const ExpansionHub: React.FC = () => {
                 Nouvelle Simulation
               </button>
               <a
-                href={getWhatsAppLink(`Bonjour, je souhaite obtenir mon Roadmap Scaling suite à ma simulation BritFlow (CA: ${currentRevenue}€ -> Objectif: ${targetRevenue}€).`)}
+                href={getWhatsAppLink(`Bonjour, je souhaite obtenir mon Roadmap Scaling suite à ma simulation Societe Anglaise (CA: ${currentRevenue}€ -> Objectif: ${targetRevenue}€).`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 py-4 bg-purple-900 text-white rounded-xl font-black uppercase text-xs tracking-widest shadow-xl text-center flex items-center justify-center"

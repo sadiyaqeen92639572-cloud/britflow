@@ -17,7 +17,7 @@ En France, la liquidation d'une SASU n'est pas qu'une simple formalité administ
 
 [EMBED_WIDGET: LiquidationCost]
 
-## La comparaison BritFlow : France vs Royaume-Uni
+## La comparaison Societe Anglaise : France vs Royaume-Uni
 
 ### 1. La ponction fiscale (Boni de Liquidation)
 En France, le boni de liquidation (ce qu'il vous reste après avoir payé les dettes) est taxé comme un dividende. Selon votre situation, vous perdez entre **30% (flat tax)** et **36.2%** de votre capital restant. 
@@ -52,4 +52,4 @@ Ne laissez pas une liquidation mal anticipée absorber vos économies et freiner
 **Sources :**
 - Greffe du Tribunal de Commerce de Paris 2024
 - HMRC Business Asset Disposal Relief Guidelines
-- Baromètre BritFlow du Coût de Sortie 2025
+- Baromètre Societe Anglaise du Coût de Sortie 2025

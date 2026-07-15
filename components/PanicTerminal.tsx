@@ -51,7 +51,7 @@ const PanicTerminal: React.FC = () => {
     <div className="bg-black border-4 border-red-600 rounded-[32px] p-6 md:p-12 shadow-[0_0_80px_rgba(220,38,38,0.2)]">
       <div className="flex items-center gap-4 mb-8">
         <div className="w-4 h-4 rounded-full bg-red-600 animate-pulse"></div>
-        <h3 className="text-xl font-black text-white uppercase tracking-widest">BritFlow Emergency Terminal</h3>
+        <h3 className="text-xl font-black text-white uppercase tracking-widest">Societe Anglaise Emergency Terminal</h3>
       </div>
 
       <div className="mb-10 text-red-400 text-xs font-mono">
@@ -89,11 +89,11 @@ const PanicTerminal: React.FC = () => {
             </div>
             <div className="mt-10 pt-8 border-t border-zinc-800 flex flex-col md:flex-row gap-6 items-center justify-between">
               <div className="flex flex-col gap-1">
-                <p className="text-[10px] text-white font-bold uppercase tracking-widest">Réponse certifiée par BritFlow IA • Solution Souveraine</p>
+                <p className="text-[10px] text-white font-bold uppercase tracking-widest">Réponse certifiée par Societe Anglaise IA • Solution Souveraine</p>
                 <p className="text-[8px] text-slate-300 font-mono">URL UNIQUE SEO : societeanglaise.fr/outils/panic-vault?q={encodeURIComponent(query).slice(0, 20)}...</p>
               </div>
               <a
-                href={getWhatsAppLink(`Bonjour, j'aimerais appliquer la structure BritFlow d'urgence suite à ma question : "${query}".`)}
+                href={getWhatsAppLink(`Bonjour, j'aimerais appliquer la structure Societe Anglaise d'urgence suite à ma question : "${query}".`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-black px-8 py-4 rounded-xl font-black text-xs uppercase tracking-widest hover:scale-105 transition-all text-center"

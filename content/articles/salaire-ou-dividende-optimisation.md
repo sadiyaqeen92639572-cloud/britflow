@@ -314,7 +314,7 @@ Utilisez ce tableau pour identifier votre situation idéale :
 | CA 60-150k€ | Diversification France + UK | 15-30k€/an |
 | CA > 150k€ | Structure complexe, audit requis | 30k€+ |
 
-## Le processus d'optimisation avec BritFlow
+## Le processus d'optimisation avec Societe Anglaise
 
 Nous ne sommes pas des conseillers en gestion de patrimoine ou des fiscalistes. Nous sommes des spécialistes de la **mise en place de structures**.
 
@@ -361,7 +361,7 @@ Nous faisons une chose, et nous la faisons bien : **Créer et gérer votre struc
 
 ### Antoine, consultant en transformation digitale
 
-> "Avant BritFlow, je me versais 4 000€ de salaire net. Mon entreprise payait 10 000€. C'est insensé.
+> "Avant Societe Anglaise, je me versais 4 000€ de salaire net. Mon entreprise payait 10 000€. C'est insensé.
 >
 > Aujourd'hui :
 > - 1 500€ de salaire en France (pour la retraite)
@@ -373,7 +373,7 @@ Nous faisons une chose, et nous la faisons bien : **Créer et gérer votre struc
 
 > "Je ne comprenais rien à la Flat Tax, au PFU, aux charges sociales. Mon comptable me parlait un langage étranger.
 >
-> BritFlow m'a expliqué simplement. J'ai créé ma LTD. Maintenant :
+> Societe Anglaise m'a expliqué simplement. J'ai créé ma LTD. Maintenant :
 > - Je garde un petit salaire en France pour la Sécu
 > - Je me verse le reste en dividendes UK
 > - J'économise 12 000€ par an
@@ -438,7 +438,7 @@ La plupart des comptables français connaissent bien le système français. Ils 
 
 Mais ils ne connaissent souvent pas les opportunités internationales. Ils n'ont pas été formés à la diversification territoriale.
 
-C'est là que BritFlow intervient. Nous apportons la perspective internationale, la "troisième voie" que personne ne vous mentionne.
+C'est là que Societe Anglaise intervient. Nous apportons la perspective internationale, la "troisième voie" que personne ne vous mentionne.
 
 Alors, salaire ou dividende ?
 
@@ -453,10 +453,10 @@ Discutons de votre situation. Ensemble, trouvons la stratégie optimale pour vou
 - Convention fiscale France-Royaume-Uni du 22 mai 1968
 - Gov.uk - Company Tax Rates and Dividend Tax 2024/2025
 - Direction Générale des Finances Publiques - Flat Tax et PFU 2024
-- Baromètre Fiscal Britflow - Étude sur la rémunération des dirigeants 2024
+- Baromètre Fiscal Societe Anglaise - Étude sur la rémunération des dirigeants 2024
 
 ---
 
 **À propos de l'auteur**
 
-Cet article est publié par BritFlow, spécialiste de l'accompagnement d'entrepreneurs français vers la création de sociétés au Royaume-Uni. Depuis 2020, nous avons aidé plus de 500 dirigeants à optimiser leur rémunération grâce à la diversification territoriale.
+Cet article est publié par Societe Anglaise, spécialiste de l'accompagnement d'entrepreneurs français vers la création de sociétés au Royaume-Uni. Depuis 2020, nous avons aidé plus de 500 dirigeants à optimiser leur rémunération grâce à la diversification territoriale.

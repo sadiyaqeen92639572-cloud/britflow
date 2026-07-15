@@ -97,7 +97,7 @@ const ReboundVault: React.FC = () => {
                 ? `URGENCE LIQUIDATION : On me réclame ${debtAmount}€ pour comblement de passif. Je veux activer le bouclier.`
                 : mode === 'fiben'
                   ? `Bonjour, je suis fiché FIBEN et je veux relancer mon activité UK avec un BFR de ${debtAmount}€.`
-                  : `Bonjour, je souhaite activer mon plan de rebond BritFlow (Passif: ${debtAmount}€, Épargne: ${monthlySavingPotential}€/mois).`
+                  : `Bonjour, je souhaite activer mon plan de rebond Societe Anglaise (Passif: ${debtAmount}€, Épargne: ${monthlySavingPotential}€/mois).`
               )}
               target="_blank"
               rel="noopener noreferrer"

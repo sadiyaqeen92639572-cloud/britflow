@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL } from "../../lib/config";
 import { BritAbout } from "../../components/BritAbout";
 
-const TITLE = "À Propos de BritFlow : L'Autorité UK-FR";
+const TITLE = "À Propos de Societe Anglaise : L'Autorité UK-FR";
 const DESCRIPTION = "Pourquoi nous faisons de l'ingénierie fiscale de défense. Expertise, IA et Common Law.";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function AProposPage() {
     name: TITLE,
     description: DESCRIPTION,
     url: `${SITE_URL}/a-propos`,
-    isPartOf: { "@type": "WebSite", name: "BritFlow", url: SITE_URL },
+    isPartOf: { "@type": "WebSite", name: "Societe Anglaise", url: SITE_URL },
   };
 
   return (

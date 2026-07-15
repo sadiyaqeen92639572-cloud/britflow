@@ -1,8 +1,8 @@
-# Kit Presse BritFlow - Instructions PDF
+# Kit Presse Societe Anglaise - Instructions PDF
 
 ## 📋 Contenu du Kit Presse
 
-Ce dossier contient tous les documents du kit presse BritFlow au format Markdown (.md) :
+Ce dossier contient tous les documents du kit presse Societe Anglaise au format Markdown (.md) :
 
 1. **DOSSIER_PRESSE.md** - Communiqué de presse complet avec chiffres clés 2024-2025
 2. **FICHES_TECHNIQUES.md** - Spécifications détaillées des 9 widgets interactifs
@@ -135,11 +135,11 @@ Vous devriez voir :
 ### Par Email
 Joindre les PDFs à un email avec le sujet :
 ```
-"Kit Presse BritFlow - Observatoire de l'Exode Fiscal 2025"
+"Kit Presse Societe Anglaise - Observatoire de l'Exode Fiscal 2025"
 ```
 
 ### Via WeTransfer
-- Créer un dossier "Kit_Presse_BritFlow"
+- Créer un dossier "Kit_Presse_Societe Anglaise"
 - Y placer tous les PDFs + infographies
 - Partager le lien
 

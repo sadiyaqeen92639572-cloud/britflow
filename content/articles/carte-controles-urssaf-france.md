@@ -269,7 +269,7 @@ Utilisez notre simulateur pour évaluer votre exposition :
 4. **Ne signez rien sans consulter**
 5. **Envisagez la protection complémentaire**
 
-## L'approche BritFlow : protection avant tout
+## L'approche Societe Anglaise : protection avant tout
 
 Nous ne sommes pas des conseillers en contentieux fiscal. Nous sommes des spécialistes de la **protection préventive**.
 
@@ -308,7 +308,7 @@ Notre philosophie : **mieux vaut prévenir que guérir.**
 
 Sarah, freelance en communication digitale à Marseille :
 
-> "En 2023, j'ai reçu ce fameux courrier URSSAF. Panique à bord. Mon comptable m'a dit : préparez-vous à un redressement de 20 000€ minimum. J'ai contacté BritFlow en urgence. En 3 semaines, nous avons créé ma LTD. J'ai transféré 40% de mes clients sur cette structure. Résultat ? Le redressement final a été de 8 400€ (au lieu de 20 000€ prévus). Et aujourd'hui, je continue d'économiser 15 000€ par an."
+> "En 2023, j'ai reçu ce fameux courrier URSSAF. Panique à bord. Mon comptable m'a dit : préparez-vous à un redressement de 20 000€ minimum. J'ai contacté Societe Anglaise en urgence. En 3 semaines, nous avons créé ma LTD. J'ai transféré 40% de mes clients sur cette structure. Résultat ? Le redressement final a été de 8 400€ (au lieu de 20 000€ prévus). Et aujourd'hui, je continue d'économiser 15 000€ par an."
 
 ## Ne subissez pas le contrôle URSSAF, anticipez-le
 
@@ -345,7 +345,7 @@ Notre équipe propose un audit gratuit et confidentiel :
 
 Regardez à nouveau la carte des contrôles. Vous êtes dans une zone rouge ? Vous avez un profil "à risque" ? Ne laissez pas le hasard décider de votre avenir entrepreneurial.
 
-Discutez avec un expert BritFlow. Ensemble, évaluons comment vous protéger.
+Discutez avec un expert Societe Anglaise. Ensemble, évaluons comment vous protéger.
 
 ---
 
@@ -353,11 +353,11 @@ Discutez avec un expert BritFlow. Ensemble, évaluons comment vous protéger.
 - URSSAF - Rapports d'activité 2019-2024
 - CNAV - Statistiques des contrôles par région
 - Direction de la Sécurité Sociale - Politique de contrôle 2025
-- Baromètre Fiscal Britflow - Analyse agrégée 2019-2024
+- Baromètre Fiscal Societe Anglaise - Analyse agrégée 2019-2024
 - Code de la Sécurité Sociale - Articles L243-7 et suivants
 
 ---
 
 **À propos de l'auteur**
 
-Cet article est publié par BritFlow, cabinet spécialisé dans l'accompagnement d'entrepreneurs français vers la création de sociétés au Royaume-Uni. Depuis 2020, nous avons aidé plus de 500 entrepreneurs à optimiser leur fiscalité et réduire leur exposition aux contrôles URSSAF.
+Cet article est publié par Societe Anglaise, cabinet spécialisé dans l'accompagnement d'entrepreneurs français vers la création de sociétés au Royaume-Uni. Depuis 2020, nous avons aidé plus de 500 entrepreneurs à optimiser leur fiscalité et réduire leur exposition aux contrôles URSSAF.

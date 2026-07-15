@@ -237,7 +237,7 @@ Au Royaume-Uni : Sophie reste sous le seuil de 90 000£ → Pas de TVA
 **Résultat :**
 - TVA à reverser : 0€ (les deux structures restent en franchise)
 - Économie : 11 000€/an
-- Complexité administrative : Modérée (gérée par BritFlow)
+- Complexité administrative : Modérée (gérée par Societe Anglaise)
 - Compétitivité : Préservée
 
 ### Pourquoi cette solution est légale et éthique
@@ -313,7 +313,7 @@ Lucas, développeur freelance à Nantes :
 
 > "J'étais dans la zone grise. Mon CA oscillait entre 35 000€ et 42 000€ selon les années. Une année, je dépasse le seuil, je paie la TVA. L'année suivante, je suis en dessous. C'était l'enfer administratif.
 >
-> BritFlow m'a proposé de créer une LTD pour mes clients britanniques et internationaux. Aujourd'hui :
+> Societe Anglaise m'a proposé de créer une LTD pour mes clients britanniques et internationaux. Aujourd'hui :
 > - 50% de mon CA passe en France (sous le seuil de TVA)
 > - 50% de mon CA passe au Royaume-Uni (sous le seuil aussi)
 > - Je ne gère plus la TVA du tout
@@ -401,10 +401,10 @@ Discutons de votre situation. Une simulation gratuite pour vous montrer les chif
 - Gov.uk - VAT Registration Thresholds 2024/2025
 - Direction Générale des Finances Publiques - Seuils de TVA 2024
 - UE Directive 2006/112/CE - Règles communes en matière de TVA
-- Baromètre Fiscal Britflow - Analyse comparée France/UK 2024
+- Baromètre Fiscal Societe Anglaise - Analyse comparée France/UK 2024
 
 ---
 
 **À propos de l'auteur**
 
-Cet article est publié par BritFlow, spécialiste de l'accompagnement d'entrepreneurs français vers l'optimisation fiscale internationale. Depuis 2020, nous avons aidé plus de 500 entrepreneurs à comprendre et optimiser leur gestion de la TVA.
+Cet article est publié par Societe Anglaise, spécialiste de l'accompagnement d'entrepreneurs français vers l'optimisation fiscale internationale. Depuis 2020, nous avons aidé plus de 500 entrepreneurs à comprendre et optimiser leur gestion de la TVA.

@@ -1,7 +1,7 @@
 ---
 title: "Rapport Annuel 2025 : L'état des défaillances d'entreprises en France"
 slug: "faillites-entreprises-france-2025"
-description: "Analyse statistique complète des défaillances d'entreprises en France pour 2024-2025. Données Banque de France, INSEE et baromètre de l'Observatoire BritFlow."
+description: "Analyse statistique complète des défaillances d'entreprises en France pour 2024-2025. Données Banque de France, INSEE et baromètre de l'Observatoire Societe Anglaise."
 date: 2025-01-20
 category: "Économie"
 tags: ["défaillance entreprise", "statistiques faillites 2025", "Banque de France", "PME", "Indicateurs économiques"]
@@ -54,9 +54,9 @@ Les experts de l'Observatoire prévoient un "plateau haut" pour l'année 2025. L
 
 ---
 
-### Analyse Complémentaire : Le point de vue BritFlow
+### Analyse Complémentaire : Le point de vue Societe Anglaise
 
-Bien que l'Observatoire se concentre sur les données factuelles françaises, BritFlow accompagne les entrepreneurs souhaitant diversifier leurs risques. 
+Bien que l'Observatoire se concentre sur les données factuelles françaises, Societe Anglaise accompagne les entrepreneurs souhaitant diversifier leurs risques. 
 
 Face au risque de défaillance, la **protection par la diversification territoriale** apparaît comme une solution de résilience majeure. En isolant une partie de l'activité ou de la propriété intellectuelle dans des juridictions plus stables fiscalement et juridiquement (comme le Royaume-Uni), les entrepreneurs français peuvent sécuriser leur avenir.
 
@@ -71,9 +71,9 @@ Nos experts analysent vos indicateurs de risque et vous proposent des scénarios
 - [Banque de France - Statistiques des défaillances](https://www.banque-france.fr)
 - [Greffes des Tribunaux de Commerce - Rapports annuels](https://www.infogreffe.fr)
 - [INSEE - Indice de santé des PME](https://www.insee.fr)
-- [Observatoire BritFlow - Données agrégées 2024](https://societeanglaise.fr/observatoire)
+- [Observatoire Societe Anglaise - Données agrégées 2024](https://societeanglaise.fr/observatoire)
 
 ---
 
 **À propos de l'auteur**
-Cet article est publié par BritFlow, cabinet spécialisé dans l'accompagnement d'entrepreneurs français vers l'optimisation et la protection internationale. L'Observatoire BritFlow est une branche indépendante dédiée à l'analyse des données économiques.
+Cet article est publié par Societe Anglaise, cabinet spécialisé dans l'accompagnement d'entrepreneurs français vers l'optimisation et la protection internationale. L'Observatoire Societe Anglaise est une branche indépendante dédiée à l'analyse des données économiques.

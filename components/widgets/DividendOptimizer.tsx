@@ -390,7 +390,7 @@ const DividendOptimizer: React.FC<DividendOptimizerProps> = ({ mode = 'default',
                 answer: "Oui, tant que la société est bénéficiaire. C'est une pratique courante au UK qui offre une flexibilité de trésorerie personnelle inégalée."
               },
               {
-                question: "Comment BritFlow m'aide à optimiser ?",
+                question: "Comment Societe Anglaise m'aide à optimiser ?",
                 answer: "Chaque année, nous calculons pour vous le point d'équilibre parfait entre salaire et dividendes selon l'évolution des lois fiscales."
               }
             ]}

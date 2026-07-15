@@ -19,13 +19,13 @@ export const BritAbout: React.FC = () => {
 
                     <div className="bg-blue-600 p-10 rounded-3xl shadow-3xl shadow-blue-500/20 mb-16 transform -rotate-1">
                         <p className="text-2xl md:text-3xl font-black tracking-tight leading-tight italic">
-                            "BritFlow n'est pas une simple agence, c'est un protocole d'ingénierie qui utilise la Common Law pour restaurer la souveraineté financière des entrepreneurs français."
+                            "Societe Anglaise n'est pas une simple agence, c'est un protocole d'ingénierie qui utilise la Common Law pour restaurer la souveraineté financière des entrepreneurs français."
                         </p>
                     </div>
 
                     <div className="prose prose-xl prose-invert max-w-none text-slate-300">
                         <p className="text-xl leading-relaxed font-medium">
-                            Nous avons fondé BritFlow avec une mission claire : <strong>fournir aux entrepreneurs les mêmes armes que les multinationales</strong>.
+                            Nous avons fondé Societe Anglaise avec une mission claire : <strong>fournir aux entrepreneurs les mêmes armes que les multinationales</strong>.
                             Dans un monde hyper-fiscalisé, la mobilité et l'arbitrage ne sont plus des options, ce sont des nécessités de survie.
                         </p>
                     </div>
@@ -63,7 +63,7 @@ export const BritAbout: React.FC = () => {
                                 },
                                 {
                                     q: "Le montage survit-il à un contrôle fiscal français ?",
-                                    a: "Oui, s'il y a de la SUBSTANCE. BritFlow se concentre exclusivement sur la création de réalité économique. Pas de substance = pas de défense."
+                                    a: "Oui, s'il y a de la SUBSTANCE. Societe Anglaise se concentre exclusivement sur la création de réalité économique. Pas de substance = pas de défense."
                                 },
                                 {
                                     q: "Qu'est-ce que le Bouclier Common Law ?",

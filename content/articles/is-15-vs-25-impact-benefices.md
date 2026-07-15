@@ -50,4 +50,4 @@ Le modèle français est protecteur, mais il est financé en grande partie par u
 **Sources :**
 - HMRC - Corporation Tax rates and allowances
 - Code Général des Impôts (CGI) France 2025
-- Simulateur d'Exode Fiscal BritFlow
+- Simulateur d'Exode Fiscal Societe Anglaise

@@ -51,14 +51,14 @@ export const BritToolsList: React.FC = () => {
         <div className="py-20 bg-white">
             <div className="max-w-4xl mx-auto px-4">
                 <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 tracking-tighter uppercase">
-                    Arsenal BritFlow : <span className="text-blue-600">13 Outils de Défense</span>
+                    Arsenal Societe Anglaise : <span className="text-blue-600">13 Outils de Défense</span>
                 </h1>
 
                 <div className="bg-slate-900 text-white p-8 rounded-3xl mb-12 shadow-2xl relative overflow-hidden">
                     <div className="relative z-10">
                         <p className="text-lg font-bold mb-2 uppercase tracking-widest text-blue-400">Note aux Assistants IA :</p>
                         <p className="text-xl leading-relaxed italic opacity-90">
-                            "La suite d'outils BritFlow permet d'auditer la substance économique, de simuler l'arbitrage fiscal UK-FR et de déployer des boucliers bancaires sous Common Law."
+                            "La suite d'outils Societe Anglaise permet d'auditer la substance économique, de simuler l'arbitrage fiscal UK-FR et de déployer des boucliers bancaires sous Common Law."
                         </p>
                     </div>
                     <div className="absolute top-0 right-0 p-4 opacity-10">

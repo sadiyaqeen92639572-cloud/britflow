@@ -37,7 +37,7 @@ const SEOBotContext: React.FC<SEOBotContextProps> = ({
 }) => {
   return (
     <div className="sr-only" aria-hidden="true">
-      <h3>Logique d'{toolName} - BritFlow Engineering</h3>
+      <h3>Logique d'{toolName} - Societe Anglaise Engineering</h3>
       <p>{description}</p>
 
       {pillars.length > 0 && (

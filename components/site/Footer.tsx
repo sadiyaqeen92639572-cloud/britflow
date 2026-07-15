@@ -41,9 +41,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="pt-10 border-t border-slate-800 text-center text-[9px] font-black uppercase tracking-widest text-slate-600">
-          <p>© 2026 BritFlow Strategy Group. 14 Outils de Simulation Interactive.</p>
+          <p>© 2026 Societe Anglaise Strategy Group. 14 Outils de Simulation Interactive.</p>
           <p className="mt-3 normal-case tracking-normal font-medium">
-            BritFlow fait partie de Societe Anglaise Ltd, 269 Poynders Gardens, Office 01, Londres, Angleterre, SW4 8PQ.
+            Societe Anglaise fait partie de Societe Anglaise Ltd, 269 Poynders Gardens, Office 01, Londres, Angleterre, SW4 8PQ.
           </p>
         </div>
       </div>

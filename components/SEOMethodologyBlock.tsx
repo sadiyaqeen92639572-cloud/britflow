@@ -18,7 +18,7 @@ interface SEOMethodologyBlockProps {
  * Usage:
  * <SEOMethodologyBlock
  *   methodologyTitle="Doctrine de Substance UK"
- *   methodologyText="L'audit BritFlow évalue la réalité de la gestion..."
+ *   methodologyText="L'audit Societe Anglaise évalue la réalité de la gestion..."
  *   algorithmName="Algorithme Substance"
  *   algorithmVersion="v5.0"
  *   precision="99.8%"
@@ -28,7 +28,7 @@ interface SEOMethodologyBlockProps {
 const SEOMethodologyBlock: React.FC<SEOMethodologyBlockProps> = ({
   methodologyTitle,
   methodologyText,
-  algorithmName = "Algorithme BritFlow",
+  algorithmName = "Algorithme Societe Anglaise",
   algorithmVersion = "v1.0",
   precision = "95%+",
   icon = "fa-cog",

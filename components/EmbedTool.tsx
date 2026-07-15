@@ -33,7 +33,7 @@ const EmbedTool: React.FC<EmbedToolProps> = ({ toolId, toolName }) => {
     const articleUrl = articleSlug ? `${siteUrl}/articles/${articleSlug}` : siteUrl;
 
     const embedCode = `
-<!-- BritFlow Tool Embed: ${toolName} -->
+<!-- Societe Anglaise Tool Embed: ${toolName} -->
 <div id="bf-container-${toolId}" style="width:100%;min-height:600px;position:relative;background:transparent;font-family:sans-serif;margin:20px 0;">
   <iframe
     id="bf-iframe-${toolId}"
@@ -120,7 +120,7 @@ const EmbedTool: React.FC<EmbedToolProps> = ({ toolId, toolName }) => {
                         <div className="mt-8 pt-8 border-t border-slate-800 flex items-center gap-4 text-emerald-500">
                             <i className="fas fa-info-circle text-xl"></i>
                             <p className="text-[10px] font-bold uppercase tracking-widest leading-normal">
-                                Backlink BritFlow inclus : Le lien de crédit est obligatoire pour maintenir l'outil actif.
+                                Backlink Societe Anglaise inclus : Le lien de crédit est obligatoire pour maintenir l'outil actif.
                                 Ne pas retirer la balise de crédit au risque de bloquer l'outil.
                             </p>
                         </div>

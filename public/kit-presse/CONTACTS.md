@@ -76,9 +76,9 @@ Coordonnées contact :
 - Format : JPEG ou PNG
 - Résolution : 300 DPI (print) ou 72 DPI (web)
 - Usage : Presse, web, sociaux
-- Crédit : BritFlow
+- Crédit : Societe Anglaise
 
-### Logo BritFlow
+### Logo Societe Anglaise
 
 **Formats disponibles :**
 - [ ] SVG (vectoriel)
@@ -95,7 +95,7 @@ Sur demande via email : press@britflow.co.uk
 
 ### Fiche Identité
 
-**Nom légal :** BritFlow Ltd
+**Nom légal :** Societe Anglaise Ltd
 **Forme juridique :** Private Limited Company (UK)
 **Numéro SIREN/SIRET :** 12345678
 **TV A intra-communautaire :** GB123456789
@@ -106,7 +106,7 @@ Sur demande via email : press@britflow.co.uk
 
 ### Description Activité
 
-**BritFlow** est une plateforme SaaS d'optimisation fiscale UK-FR qui accompagne les entrepreneurs et freelances français dans la création et la gestion de société britannique (Limited Company).
+**Societe Anglaise** est une plateforme SaaS d'optimisation fiscale UK-FR qui accompagne les entrepreneurs et freelances français dans la création et la gestion de société britannique (Limited Company).
 
 **Services :**
 - 13 outils de calcul et simulation spécialisés
@@ -146,7 +146,7 @@ Sur demande via email : press@britflow.co.uk
 - 340% d'augmentation des créations de Limited par des Français (2020-2024)
 - 2,4 milliards € de redressements URSSAF en 2024
 
-**BritFlow :**
+**Societe Anglaise :**
 - 5 000+ utilisateurs mensuels
 - 13 outils de calcul
 - 54 articles de vulgarisation
@@ -161,7 +161,7 @@ Sur demande via email : press@britflow.co.uk
 
 **Exode fiscal :**
 > *"Les chiffres de 2024 sont sans appel : les entrepreneurs français votent avec leurs pieds."*
-> — Alexandre Durand, Fondateur BritFlow
+> — Alexandre Durand, Fondateur Societe Anglaise
 
 **Fiscalité :**
 > *"Avec une pression fiscale 2,5x plus faible et une administration 10x plus rapide, le UK n'est plus une option, c'est une question de survie pour beaucoup."*
@@ -171,7 +171,7 @@ Sur demande via email : press@britflow.co.uk
 
 **Délais administratifs :**
 > *"Créer ma société a pris 24h au UK vs 4 semaines en France. Dans le monde du freelancing où la vitesse compte, ça change tout."*
-> — Sophie M., Développeuse freelance, utilisatrice BritFlow
+> — Sophie M., Développeuse freelance, utilisatrice Societe Anglaise
 
 ---
 
@@ -275,9 +275,9 @@ Sur demande via email : press@britflow.co.uk
 - [ ] CODE_INTEGRATION.html
 
 **Logo & Visuels :**
-- [ ] Logo_BritFlow.svg
-- [ ] Logo_BritFlow_HD.png
-- [ ] Equipe_BritFlow_HD.png
+- [ ] Logo_Societe Anglaise.svg
+- [ ] Logo_Societe Anglaise_HD.png
+- [ ] Equipe_Societe Anglaise_HD.png
 
 ### Téléchargement
 
@@ -296,7 +296,7 @@ Sur demande via email : press@britflow.co.uk
 - Blogs et médias digitaux
 
 **Conditions :**
-- Citation obligatoire de la source : "BritFlow"
+- Citation obligatoire de la source : "Societe Anglaise"
 - Usage non-commercial uniquement
 - Pas de modification sans accord préalable
 
@@ -316,7 +316,7 @@ press@britflow.co.uk
 - Chiffres clés et statistiques
 
 **Condition :**
-- Mention de la source obligatoire : "Source : BritFlow - Observatoire de l'Exode Fiscal 2025"
+- Mention de la source obligatoire : "Source : Societe Anglaise - Observatoire de l'Exode Fiscal 2025"
 
 ### Infographies
 
@@ -400,8 +400,8 @@ Pour les requètes urgentes uniquement (deadline presse < 24h) :
 
 **Entreprise :**
 - LinkedIn : https://linkedin.com/company/britflow
-- Crunchbase : BritFlow Ltd
-- Angels (UK startup list) : BritFlow
+- Crunchbase : Societe Anglaise Ltd
+- Angels (UK startup list) : Societe Anglaise
 
 ---
 
@@ -442,8 +442,8 @@ Les données collectées via le formulaire presse sont utilisées exclusivement 
 
 ### Questions Fréquentes
 
-**Q : BritFlow est-il un cabinet comptable ?**
-R : Non, BritFlow est une plateforme d'information et d'outils. Nous ne sommes pas conseillers fiscaux certifiés. Nous recommandons de consulter un expert pour les décisions importantes.
+**Q : Societe Anglaise est-il un cabinet comptable ?**
+R : Non, Societe Anglaise est une plateforme d'information et d'outils. Nous ne sommes pas conseillers fiscaux certifiés. Nous recommandons de consulter un expert pour les décisions importantes.
 
 **Q : Combien d'utilisateurs avez-vous ?**
 R : 5 000+ utilisateurs mensuels (janvier 2025), en croissance de +40% vs 2024.
@@ -451,7 +451,7 @@ R : 5 000+ utilisateurs mensuels (janvier 2025), en croissance de +40% vs 2024.
 **Q : Vos données sont-elles vérifiées ?**
 R : Oui, toutes nos données proviennent de sources officielles (INSEE, URSSAF, HMRC, etc.) et sont mises à jour trimestriellement.
 
-**Q : BritFlow est-il gratuit ?**
+**Q : Societe Anglaise est-il gratuit ?**
 R : Nos 13 outils de calcul sont 100% gratuits et accessibles sans inscription. Nous proposons également des services payants d'accompagnement.
 
 **Q : Payez-vous pour des interviews ?**

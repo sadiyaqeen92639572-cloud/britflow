@@ -142,7 +142,7 @@ const ProfitOptimizer: React.FC = () => {
               <span className="text-2xl font-black text-emerald-500">+{analysis.taxSaved.toLocaleString()}€ / an</span>
             </div>
             <a
-              href={getWhatsAppLink(`Bonjour, je souhaite optimiser mes flux offshore suite à ma simulation BritFlow (Stratégie: ${strategy}, Shift: ${analysis.amountShifted}€).`)}
+              href={getWhatsAppLink(`Bonjour, je souhaite optimiser mes flux offshore suite à ma simulation Societe Anglaise (Stratégie: ${strategy}, Shift: ${analysis.amountShifted}€).`)}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-blue-600 text-white font-black py-4 rounded-xl shadow-xl hover:bg-blue-500 transition-all uppercase tracking-widest text-[10px] text-center block"

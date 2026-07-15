@@ -137,7 +137,7 @@ const FiscalScanner: React.FC = () => {
             {mode === 'lifestyle' ? "Anticipez les questions du fisc sur vos signes extérieurs de richesse."
               : mode === 'urssaf' ? "Évaluez la probabilité de contrôle dans votre région."
                 : mode === 'watch' ? "Analyse en temps réel de la sinistralité des entreprises françaises (+66k faillites)."
-                  : "Outil de diagnostic intelligent recommandé par BritFlow IA"
+                  : "Outil de diagnostic intelligent recommandé par Societe Anglaise IA"
             }
           </p>
         </header>
@@ -246,7 +246,7 @@ const FiscalScanner: React.FC = () => {
               <a
                 href={getWhatsAppLink(mode === 'lifestyle'
                   ? `URGENCE ESFP : Mes dépenses (${taxPaid}€) dépassent mes revenus déclarés (${revenue}€). Je dois justifier mon train de vie.`
-                  : `Bonjour, je souhaite obtenir mon Audit Complet de Fuite Fiscale suite à ma simulation BritFlow (CA: ${revenue}€, Impôt: ${taxPaid}€).`
+                  : `Bonjour, je souhaite obtenir mon Audit Complet de Fuite Fiscale suite à ma simulation Societe Anglaise (CA: ${revenue}€, Impôt: ${taxPaid}€).`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

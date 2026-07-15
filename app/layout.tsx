@@ -7,14 +7,14 @@ import { SITE_URL } from "../lib/config";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "BritFlow - Optimisation Fiscale & Société Limited Londres",
-    template: "%s | BritFlow",
+    default: "Societe Anglaise - Optimisation Fiscale & Société Limited Londres",
+    template: "%s | Societe Anglaise",
   },
   description:
     "Simulez vos gains fiscaux, auditez votre substance et créez votre société Limited à Londres en toute sécurité. Le guide ultime pour les entrepreneurs français.",
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: "BritFlow - L'Expertise Fiscale UK pour Français",
+    title: "Societe Anglaise - L'Expertise Fiscale UK pour Français",
     description:
       "Ouvrir une Limited à Londres n'a jamais été aussi sécurisé. Découvrez nos outils d'audit de substance.",
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "BritFlow",
+  name: "Societe Anglaise",
   legalName: "Societe Anglaise Ltd",
   url: SITE_URL,
   address: {

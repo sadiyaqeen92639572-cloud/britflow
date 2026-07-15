@@ -185,7 +185,7 @@ const LiabilityRadar: React.FC<LiabilityRadarProps> = ({ onLoad }) => {
                         },
                         {
                             question: "Puis-je fermer ma boîte FR et repartir en UK ?",
-                            answer: "C'est possible, mais cela doit être fait proprement pour éviter les accusations de faillite frauduleuse. BritFlow vous guide dans la transition pour protéger vos futurs actifs."
+                            answer: "C'est possible, mais cela doit être fait proprement pour éviter les accusations de faillite frauduleuse. Societe Anglaise vous guide dans la transition pour protéger vos futurs actifs."
                         }
                     ]}
                 />

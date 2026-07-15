@@ -171,7 +171,7 @@ const SubstanceAudit: React.FC = () => {
             <a
               href={getWhatsAppLink(mode === 'control'
                 ? `URGENCE CONTROLE : J'ai fait l'audit, j'ai besoin d'un avocat fiscaliste immédiatement. Voici mes réponses...`
-                : `Bonjour, j'ai terminé l'audit de substance BritFlow et je souhaite obtenir mon certificat de conformité.`
+                : `Bonjour, j'ai terminé l'audit de substance Societe Anglaise et je souhaite obtenir mon certificat de conformité.`
               )}
               target="_blank"
               rel="noopener noreferrer"
@@ -190,7 +190,7 @@ const SubstanceAudit: React.FC = () => {
       )}
 
       <div className="mt-10 pt-6 border-t border-slate-900/50 flex items-center justify-between opacity-50">
-        <span className="text-[8px] font-black uppercase tracking-widest text-white">BritFlow Compliance Standard 2025</span>
+        <span className="text-[8px] font-black uppercase tracking-widest text-white">Societe Anglaise Compliance Standard 2025</span>
         <i className="fas fa-lock text-[8px]"></i>
       </div>
       <EmbedTool toolId="substance-audit" toolName="Substance Audit IA" />

@@ -11,7 +11,7 @@
 
 ### Exode Fiscal 2025 : Les Entrepreneurs Français Quittent la France en Masse
 
-**LONDON / PARIS** – BritFlow, plateforme d'optimisation fiscale UK-FR, publie son **Observatoire de l'Exode Fiscal 2025**, une étude inédite basée sur des données officielles INSEE, URSSAF et HMRC. Les chiffres sont alarmants : la France a enregistré **66 000 défaillances d'entreprises en 2024**, soit une hausse de **+17,6%** par rapport à 2023, tandis que les créations de sociétés UK par des Français ont bondi de **+340%** sur la même période.
+**LONDON / PARIS** – Societe Anglaise, plateforme d'optimisation fiscale UK-FR, publie son **Observatoire de l'Exode Fiscal 2025**, une étude inédite basée sur des données officielles INSEE, URSSAF et HMRC. Les chiffres sont alarmants : la France a enregistré **66 000 défaillances d'entreprises en 2024**, soit une hausse de **+17,6%** par rapport à 2023, tandis que les créations de sociétés UK par des Français ont bondi de **+340%** sur la même période.
 
 #### Chiffres Clés 2024-2025
 
@@ -40,7 +40,7 @@
 
 #### Méthodologie
 
-L'Observatoire BritFlow agrège des données provenant de :
+L'Observatoire Societe Anglaise agrège des données provenant de :
 - **INSEE** : Statistiques de défaillances d'entreprises
 - **URSSAF** : Données de redressements par région
 - **HMRC** : Statistiques de créations d'entreprises par nationalité
@@ -50,7 +50,7 @@ Ces données sont visualisables via des widgets interactifs libres d'utilisation
 
 #### Outils Interactifs Disponibles
 
-BritFlow met à disposition des journalistes et bloggers **9 widgets interactifs** intégreables gratuitement :
+Societe Anglaise met à disposition des journalistes et bloggers **9 widgets interactifs** intégreables gratuitement :
 
 1. **FiscalWatch** – Suivi des défaillances vs taux d'imposition
 2. **URSSAF Tracker** – Carte interactive des redressements par région
@@ -62,9 +62,9 @@ BritFlow met à disposition des journalistes et bloggers **9 widgets interactifs
 8. **Bank Matchmaker** – Sélectionneur de banques/crypto-friendly
 9. **Liquidation Cost Calculator** – Coût de fermeture d'entreprise
 
-#### À Propos de BritFlow
+#### À Propos de Societe Anglaise
 
-BritFlow est une plateforme SaaS fondée en 2024 par des entrepreneurs français expatriés à Londres. Elle accompagne les entrepreneurs et freelances français dans l'optimisation fiscale de leur activité via le statut de société britannique (Limited Company).
+Societe Anglaise est une plateforme SaaS fondée en 2024 par des entrepreneurs français expatriés à Londres. Elle accompagne les entrepreneurs et freelances français dans l'optimisation fiscale de leur activité via le statut de société britannique (Limited Company).
 
 **Services :**
 - 13 outils de calcul et simulation spécialisés
@@ -73,7 +73,7 @@ BritFlow est une plateforme SaaS fondée en 2024 par des entrepreneurs français
 - Optimisation fiscale personnalisée (salaire vs dividendes, TVA, etc.)
 - Protection du patrimoine (immobilier, crypto, parts sociales)
 
-**Chiffres Clés BritFlow :**
+**Chiffres Clés Societe Anglaise :**
 - 5 000+ utilisateurs mensuels
 - 13 outils de calcul
 - 54 articles de vulgarisation fiscale
@@ -81,7 +81,7 @@ BritFlow est une plateforme SaaS fondée en 2024 par des entrepreneurs français
 
 #### Contact Presse
 
-**BritFlow Ltd**
+**Societe Anglaise Ltd**
 London, United Kingdom
 Email : press@britflow.co.uk
 WhatsApp : +44 77 1234 5678
@@ -102,7 +102,7 @@ Site : https://britflow.co.uk
 
 > *"Les chiffres de 2024 sont sans appel : les entrepreneurs français votent avec leurs pieds. Chaque jour, nous voyons des dizaines de consultants, e-commerçants et freelances quitter la France pour le Royaume-Uni, non pas par désamour de leur pays, mais pour survivre économiquement. Avec une pression fiscale 2,5x plus faible et une administration 10x plus rapide, le UK n'est plus une option, c'est une question de survie pour beaucoup."*
 >
-> — **Alexandre D., Fondateur de BritFlow**
+> — **Alexandre D., Fondateur de Societe Anglaise**
 
 ### Citations d'Utilisateurs
 
@@ -129,7 +129,7 @@ Voir le fichier **INFOS_GRAPHIQUES.md** pour :
 
 ## CONDITIONS D'UTILISATION DES WIDGETS
 
-**Utilisation Libre :** Les widgets BritFlow sont gratuits pour tout usage éditorial (presse, blogs, médias) sous condition :
+**Utilisation Libre :** Les widgets Societe Anglaise sont gratuits pour tout usage éditorial (presse, blogs, médias) sous condition :
 - **Attribution obligatoire** : Lien retour vers https://britflow.co.uk
 - **Non-modification** : Le code des widgets ne peut être modifié
 - **Usage commercial interdit** : Réservé à un usage éditorial
@@ -212,4 +212,4 @@ Photos HD du fondateur et de l'équipe disponibles sur demande.
 
 ---
 
-*Ce dossier de presse est librement utilisable dans sa totalité ou par extraits, sous réserve de mention de la source "BritFlow - Observatoire de l'Exode Fiscal 2025".*
+*Ce dossier de presse est librement utilisable dans sa totalité ou par extraits, sous réserve de mention de la source "Societe Anglaise - Observatoire de l'Exode Fiscal 2025".*

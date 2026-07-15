@@ -145,7 +145,7 @@ const Observatoire: React.FC = () => {
       )}
 
       <SEOJsonLd
-        name="Observatoire BritFlow | Baromètre Fiscal 2025"
+        name="Observatoire Societe Anglaise | Baromètre Fiscal 2025"
         description="Données exclusives sur les faillites, l'URSSAF et l'exode fiscal. Analyse comparative France vs Royaume-Uni."
         url={`${SITE_URL}/observatoire`}
         schema={{
@@ -156,7 +156,7 @@ const Observatoire: React.FC = () => {
           "url": `${SITE_URL}/observatoire`,
           "creator": {
             "@type": "Organization",
-            "name": "BritFlow",
+            "name": "Societe Anglaise",
             "url": SITE_URL
           },
           "keywords": ["fiscalité France", "fiscalité UK", "faillites entreprises", "exode fiscal", "URSSAF", "impôt sociétés"],
@@ -276,7 +276,7 @@ const Observatoire: React.FC = () => {
                 <i className="fas fa-tower-observation text-white text-lg"></i>
               </div>
               <span className="font-bold text-slate-900 text-sm md:text-base whitespace-nowrap">
-                Observatoire BritFlow
+                Observatoire Societe Anglaise
               </span>
             </div>
 
@@ -1044,7 +1044,7 @@ const Observatoire: React.FC = () => {
               </h3>
               <div className="prose prose-lg max-w-none text-gray-700">
                 <p className="mb-4">
-                  L'Observatoire Fiscal BritFlow agrège des données provenant de sources officielles et publiques pour offrir une vision comparative de la compétitivité fiscale entre la France et le Royaume-Uni.
+                  L'Observatoire Fiscal Societe Anglaise agrège des données provenant de sources officielles et publiques pour offrir une vision comparative de la compétitivité fiscale entre la France et le Royaume-Uni.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
@@ -1163,7 +1163,7 @@ const Observatoire: React.FC = () => {
             <div className="border-t border-slate-800 pt-8">
               <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-white">BritFlow</span>
+                  <span className="font-bold text-white">Societe Anglaise</span>
                   <span>•</span>
                   <span>Observatoire Fiscal 2025</span>
                 </div>
@@ -1188,7 +1188,7 @@ const Observatoire: React.FC = () => {
               </div>
 
               <p className="mt-6 text-xs text-center text-slate-500">
-                © 2025 BritFlow. Tous droits réservés. Les données présentées sont à titre informatif et ne constituent pas un conseil fiscal personnalisé.
+                © 2025 Societe Anglaise. Tous droits réservés. Les données présentées sont à titre informatif et ne constituent pas un conseil fiscal personnalisé.
               </p>
             </div>
           </div>

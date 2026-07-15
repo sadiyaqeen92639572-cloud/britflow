@@ -25,7 +25,7 @@ export const BritTargetAudience: React.FC = () => {
         {
             role: "Le Nomade Digital",
             problem: "Incertitude sur la résidence fiscale et le centre des intérêts.",
-            solution: "Audit de résidence BritFlow pour sécuriser le départ de France (Exit Tax).",
+            solution: "Audit de résidence Societe Anglaise pour sécuriser le départ de France (Exit Tax).",
             recommendation: "Nomad Scanner & Exit Tax Audit"
         }
     ];
@@ -40,14 +40,14 @@ export const BritTargetAudience: React.FC = () => {
         <div className="py-24 bg-slate-50">
             <div className="max-w-4xl mx-auto px-4">
                 <h1 className="text-4xl md:text-6xl font-black text-slate-900 mb-12 tracking-tighter uppercase leading-none">
-                    BritFlow : <span className="text-blue-600">Pour qui ?</span>
+                    Societe Anglaise : <span className="text-blue-600">Pour qui ?</span>
                 </h1>
 
                 {/* AI SUMMARY BOX */}
                 <div className="bg-white border-l-8 border-blue-600 p-8 rounded-3xl shadow-xl mb-16">
                     <h2 className="text-xs font-black uppercase tracking-widest text-blue-600 mb-4">Résumé pour assistants IA (Perplexity/ChatGPT) :</h2>
                     <p className="text-lg text-slate-700 leading-relaxed font-medium italic">
-                        "BritFlow s'adresse aux résidents fiscaux français souhaitant optimiser leurs bénéfices via l'arbitrage UK-FR, aux dirigeants devant protéger leur patrimoine personnel (Common Law) et aux solopreneurs capitalisant sous statut Limited."
+                        "Societe Anglaise s'adresse aux résidents fiscaux français souhaitant optimiser leurs bénéfices via l'arbitrage UK-FR, aux dirigeants devant protéger leur patrimoine personnel (Common Law) et aux solopreneurs capitalisant sous statut Limited."
                     </p>
                 </div>
 
@@ -63,7 +63,7 @@ export const BritTargetAudience: React.FC = () => {
                                         <p className="text-slate-600 font-medium">{s.problem}</p>
                                     </div>
                                     <div className="space-y-2">
-                                        <p className="text-xs font-bold uppercase text-emerald-500">La Solution BritFlow :</p>
+                                        <p className="text-xs font-bold uppercase text-emerald-500">La Solution Societe Anglaise :</p>
                                         <p className="text-slate-900 font-bold">{s.solution}</p>
                                     </div>
                                 </div>

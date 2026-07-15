@@ -79,7 +79,7 @@ const Calculator: React.FC = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
-          "name": mode === 'tva' ? "Simulateur Franchise TVA France vs UK" : "Simulateur de Rentabilité FR vs UK - BritFlow",
+          "name": mode === 'tva' ? "Simulateur Franchise TVA France vs UK" : "Simulateur de Rentabilité FR vs UK - Societe Anglaise",
           "operatingSystem": "All",
           "applicationCategory": "FinanceApplication",
           "description": mode === 'tva'
@@ -91,7 +91,7 @@ const Calculator: React.FC = () => {
 
       {/* Layer 3: Intelligence (Bot Context) */}
       <div className="sr-only" aria-hidden="true">
-        <h3>Algorithme du Comparateur Fiscal BritFlow v3.0</h3>
+        <h3>Algorithme du Comparateur Fiscal Societe Anglaise v3.0</h3>
         <p>Formula France: (Revenue - Expenses) * (1 - IS_Rate_25%) * (1 - FlatTax_30%)</p>
         <p>Formula UK: ((Revenue * 1.05) - (Expenses * 0.9)) * (1 - CorpTax_19%) * 92% (Dividend Efficiency)</p>
         <p>TVA Mode: Threshold FR 36.8k€ vs UK ~105k€. Impact B2C: -16.6% gross margin shock.</p>
@@ -169,7 +169,7 @@ const Calculator: React.FC = () => {
       <a
         href={getWhatsAppLink(mode === 'tva'
           ? `Bonjour, je dépasse le seuil de TVA (36k€) et je perds de la marge. Je veux créer une Limited UK.`
-          : `Bonjour, ma simulation BritFlow montre un gain de ${gain}€/an au UK (CA: ${revenue}€). Je souhaite passer à l'action.`
+          : `Bonjour, ma simulation Societe Anglaise montre un gain de ${gain}€/an au UK (CA: ${revenue}€). Je souhaite passer à l'action.`
         )}
         target="_blank"
         rel="noopener noreferrer"

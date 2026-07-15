@@ -379,7 +379,7 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
                   answer: "Si vous n'êtes pas assujetti (sous 90k£), non. Mais l'économie de ne pas la facturer à vos clients compense largement la TVA non récupérée sur vos frais."
                 },
                 {
-                  question: "BritFlow gère-t-il l'inscription à la VAT ?",
+                  question: "Societe Anglaise gère-t-il l'inscription à la VAT ?",
                   answer: "Oui, nous vous conseillons sur le moment optimal pour s'inscrire ou sur l'utilisation des schémas simplifiés (Flat Rate Scheme) au UK."
                 }
               ]}

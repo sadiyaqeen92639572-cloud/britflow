@@ -45,7 +45,7 @@ const FiscalWatchWidget: React.FC<WidgetProps> = ({ onLoad }) => {
   const whatsappMessage = "Bonjour, j'ai vu le baromètre des faillites 2025. Comment protéger ma structure ?";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-  const embedCode = `<iframe src="${SITE_URL}/outils/fiscal-scanner" width="100%" height="600" frameborder="0" title="Baromètre Santé PME - BritFlow"></iframe>`;
+  const embedCode = `<iframe src="${SITE_URL}/outils/fiscal-scanner" width="100%" height="600" frameborder="0" title="Baromètre Santé PME - Societe Anglaise"></iframe>`;
 
   const copyEmbedCode = () => {
     navigator.clipboard.writeText(embedCode);
@@ -83,7 +83,7 @@ const FiscalWatchWidget: React.FC<WidgetProps> = ({ onLoad }) => {
     "url": `${SITE_URL}/observatoire#sante-financiere`,
     "creator": {
       "@type": "Organization",
-      "name": "BritFlow - Observatoire"
+      "name": "Societe Anglaise - Observatoire"
     },
     "variableMeasured": [
       {
@@ -299,7 +299,7 @@ const FiscalWatchWidget: React.FC<WidgetProps> = ({ onLoad }) => {
       {/* Methodlogy Block - Technical SEO */}
       <SEOMethodologyBlock
         methodologyTitle="Analyse de la Corrélation Pression / Défaillance"
-        methodologyText="Cet outil croise mensuellement les rapports de défaillances de la Banque de France avec l'évolution de la pression fiscale réelle pesant sur les PME françaises. L'indice BritFlow permet d'anticiper les pics de faillites en fonction des annonces budgétaires."
+        methodologyText="Cet outil croise mensuellement les rapports de défaillances de la Banque de France avec l'évolution de la pression fiscale réelle pesant sur les PME françaises. L'indice Societe Anglaise permet d'anticiper les pics de faillites en fonction des annonces budgétaires."
         algorithmName="FailurePredict-FR"
         algorithmVersion="v2.1"
         precision="Haute (Données Publiques Certifiées)"

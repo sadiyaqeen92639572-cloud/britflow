@@ -75,7 +75,7 @@ const SalaryOptimizer: React.FC = () => {
         </div>
 
         <a
-          href={getWhatsAppLink(`Bonjour, je souhaite mettre en place un arbitrage Salaire vs Dividende BritFlow pour un net cible de ${targetNet}€.`)}
+          href={getWhatsAppLink(`Bonjour, je souhaite mettre en place un arbitrage Salaire vs Dividende Societe Anglaise pour un net cible de ${targetNet}€.`)}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full bg-blue-600 text-white font-black py-4 rounded-xl text-xs uppercase tracking-widest shadow-xl hover:bg-blue-500 transition-all text-center block"

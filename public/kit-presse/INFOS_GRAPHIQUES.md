@@ -13,7 +13,7 @@
 - **PDF** : Document prêt à l'emploi
 - **Embed HTML** : Intégration web interactive
 
-### Charte Graphique BritFlow
+### Charte Graphique Societe Anglaise
 
 **Couleurs :**
 - Primaire (Slate) : #0f172a (fond sombre)
@@ -102,7 +102,7 @@
 ### Footer
 - **Sources** : INSEE, URSSAF, HMRC, Companies House
 - **Méthodologie** : Données 2024, enquête n=500
-- **Logo BritFlow**
+- **Logo Societe Anglaise**
 - **URL** : britflow.co.uk#observatoire
 
 ### Fichiers Disponibles
@@ -159,7 +159,7 @@
 ### Footer
 - **Total France** : 2,4 milliards € (+18%)
 - **Source** : URSSAF, Acoss
-- **Logo BritFlow**
+- **Logo Societe Anglaise**
 
 ### Fichiers Disponibles
 - [ ] SVG (carte vectorielle)
@@ -184,7 +184,7 @@
 - **Chiffre clé** : 46% de prélèvements
 
 ### Acte 2 : La Découverte (Février 2024)
-- **Visuel** : Ordi avec BritFlow ouvert
+- **Visuel** : Ordi avec Societe Anglaise ouvert
 - **Texte** : "Il découvre qu'au UK, il garderait 4 500€"
 - **Chiffre clé** : +1 300€/mois = +15 600€/an
 
@@ -465,7 +465,7 @@ UK (optimal)   : ████████████████████ 73
 ## LICENCE D'UTILISATION
 
 **Usage Presse :** LIBRE
-- Citation obligatoire : "Source : BritFlow - Observatoire de l'Exode Fiscal 2025"
+- Citation obligatoire : "Source : Societe Anglaise - Observatoire de l'Exode Fiscal 2025"
 - Modification interdite sans accord
 - Usage commercial interdit
 

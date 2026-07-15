@@ -204,7 +204,7 @@ const WealthAudit: React.FC = () => {
                 ? `Bonjour, mon score de sécurité Crypto est de ${audit.freedomScore}%. Je veux sanctuariser mon portfolio de ${revenue}€.`
                 : mode === 'inheritance'
                   ? `Bonjour, je veux protéger mon héritage de ${revenue}€ pour mes ${heirCount} enfants et éviter les droits de succession abusifs.`
-                  : `Bonjour, mon score de liberté BritFlow est de ${audit.freedomScore}%. Je souhaite stopper la fuite de trésorerie de ${audit.totalLeakage}€/an.`
+                  : `Bonjour, mon score de liberté Societe Anglaise est de ${audit.freedomScore}%. Je souhaite stopper la fuite de trésorerie de ${audit.totalLeakage}€/an.`
               )}
               target="_blank"
               rel="noopener noreferrer"
@@ -234,7 +234,7 @@ const WealthAudit: React.FC = () => {
             answer: "Statistiquement, oui. Avec un taux de prélèvements obligatoires de 45.4% du PIB (OCDE 2024), c'est le pays le plus taxé au monde. Pour un entrepreneur performant, cela signifie travailler mathématiquement plus de 6 mois par an uniquement pour l'État (Jour de Libération Fiscale en Juillet)."
           },
           {
-            question: "Qu'est-ce que le 'Score de Liberté' BritFlow ?",
+            question: "Qu'est-ce que le 'Score de Liberté' Societe Anglaise ?",
             answer: "C'est un indicateur propriétaire qui mesure votre 'Reste à Vivre Réel'. Il soustrait de vos revenus bruts : l'impôt, les charges sociales, l'inflation, le coût administratif de la conformité, et le coût du risque juridique. Un score sous 40% indique une situation de servitude économique."
           },
           {

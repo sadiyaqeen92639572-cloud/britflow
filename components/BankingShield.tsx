@@ -195,7 +195,7 @@ const BankingShield: React.FC = () => {
               <a
                 href={getWhatsAppLink(mode === 'atd'
                   ? `URGENCE ATD : Mes comptes sont saisis. J'ai besoin d'un compte UK insaisissable pour ${cashAmount}€.`
-                  : `Bonjour, je souhaite ouvrir un compte sécurisé à Londres suite à mon audit BritFlow (Trésorerie: ${cashAmount}€, Banque: ${bankType}).`
+                  : `Bonjour, je souhaite ouvrir un compte sécurisé à Londres suite à mon audit Societe Anglaise (Trésorerie: ${cashAmount}€, Banque: ${bankType}).`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

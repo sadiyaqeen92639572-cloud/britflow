@@ -9,7 +9,7 @@
 ## CONDITIONS GÉNÉRALES D'UTILISATION
 
 ### Licence Libre pour Presse
-Tous les widgets BritFlow sont **gratuits** pour un usage éditorial (presse, blogs, médias en ligne) sous conditions :
+Tous les widgets Societe Anglaise sont **gratuits** pour un usage éditorial (presse, blogs, médias en ligne) sous conditions :
 
 ✅ **Autorisé :**
 - Intégration sur des sites d'information, blogs, médias
@@ -18,7 +18,7 @@ Tous les widgets BritFlow sont **gratuits** pour un usage éditorial (presse, bl
 
 ❌ **Interdit :**
 - Modification du code source (sauf dimensions)
-- Suppression du lien retour vers BritFlow
+- Suppression du lien retour vers Societe Anglaise
 - Usage commercial (vente, intégration payante)
 - Redistribution en tant que service
 
@@ -39,7 +39,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow FiscalWatch Widget - Start -->
+<!-- Societe Anglaise FiscalWatch Widget - Start -->
 <div style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/fiscal-watch"
@@ -48,15 +48,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow FiscalWatch - Défaillances d'entreprises vs Fiscalité"
+    title="Societe Anglaise FiscalWatch - Défaillances d'entreprises vs Fiscalité"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Source: <a href="https://britflow.co.uk?ref=widget-fiscalwatch" style="color: #10b981; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Source: <a href="https://britflow.co.uk?ref=widget-fiscalwatch" style="color: #10b981; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Données INSEE & HMRC
   </div>
 </div>
-<!-- BritFlow FiscalWatch Widget - End -->
+<!-- Societe Anglaise FiscalWatch Widget - End -->
 ```
 
 **Variante compacte (mobile) :**
@@ -79,7 +79,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow URSSAF Tracker Widget - Start -->
+<!-- Societe Anglaise URSSAF Tracker Widget - Start -->
 <div style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/urssaf-tracker"
@@ -88,15 +88,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow URSSAF Tracker - Carte des redressements par région"
+    title="Societe Anglaise URSSAF Tracker - Carte des redressements par région"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Source: <a href="https://britflow.co.uk?ref=widget-urssaf" style="color: #ef4444; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Source: <a href="https://britflow.co.uk?ref=widget-urssaf" style="color: #ef4444; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Données URSSAF 2024
   </div>
 </div>
-<!-- BritFlow URSSAF Tracker Widget - End -->
+<!-- Societe Anglaise URSSAF Tracker Widget - End -->
 ```
 
 **Variante carrée (Instagram style) :**
@@ -119,7 +119,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Fiscal Exodus Simulator - Start -->
+<!-- Societe Anglaise Fiscal Exodus Simulator - Start -->
 <div style="position: relative; width: 100%; max-width: 600px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/fiscal-exodus-simulator"
@@ -128,15 +128,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Fiscal Exodus Simulator - Calculateur France vs UK"
+    title="Societe Anglaise Fiscal Exodus Simulator - Calculateur France vs UK"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Calculateur gratuit par <a href="https://britflow.co.uk?ref=widget-simulator" style="color: #6366f1; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Calculateur gratuit par <a href="https://britflow.co.uk?ref=widget-simulator" style="color: #6366f1; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Optimisation fiscale UK
   </div>
 </div>
-<!-- BritFlow Fiscal Exodus Simulator - End -->
+<!-- Societe Anglaise Fiscal Exodus Simulator - End -->
 ```
 
 **Variante compacte :**
@@ -159,7 +159,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Bureaucracy Clock - Start -->
+<!-- Societe Anglaise Bureaucracy Clock - Start -->
 <div style="position: relative; width: 100%; max-width: 600px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/bureaucracy-clock"
@@ -168,15 +168,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Bureaucracy Clock - Comparateur de délais France vs UK"
+    title="Societe Anglaise Bureaucracy Clock - Comparateur de délais France vs UK"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Source: <a href="https://britflow.co.uk?ref=widget-bureaucracy" style="color: #10b981; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Source: <a href="https://britflow.co.uk?ref=widget-bureaucracy" style="color: #10b981; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Données World Bank & Companies House
   </div>
 </div>
-<!-- BritFlow Bureaucracy Clock - End -->
+<!-- Societe Anglaise Bureaucracy Clock - End -->
 ```
 
 ---
@@ -190,7 +190,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow TVA Shock Simulator - Start -->
+<!-- Societe Anglaise TVA Shock Simulator - Start -->
 <div style="position: relative; width: 100%; max-width: 500px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/tva-shock"
@@ -199,15 +199,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow TVA Shock Simulator - Seuil de franchise"
+    title="Societe Anglaise TVA Shock Simulator - Seuil de franchise"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Simulateur TVA par <a href="https://britflow.co.uk?ref=widget-tva" style="color: #f97316; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Simulateur TVA par <a href="https://britflow.co.uk?ref=widget-tva" style="color: #f97316; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Seuils France vs UK
   </div>
 </div>
-<!-- BritFlow TVA Shock Simulator - End -->
+<!-- Societe Anglaise TVA Shock Simulator - End -->
 ```
 
 ---
@@ -221,7 +221,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Dividend Optimizer - Start -->
+<!-- Societe Anglaise Dividend Optimizer - Start -->
 <div style="position: relative; width: 100%; max-width: 600px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/dividend-optimizer"
@@ -230,15 +230,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Dividend Optimizer - Salaire vs Dividendes"
+    title="Societe Anglaise Dividend Optimizer - Salaire vs Dividendes"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Optimisation rémunération par <a href="https://britflow.co.uk?ref=widget-dividend" style="color: #6366f1; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Optimisation rémunération par <a href="https://britflow.co.uk?ref=widget-dividend" style="color: #6366f1; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Comparaison France vs UK
   </div>
 </div>
-<!-- BritFlow Dividend Optimizer - End -->
+<!-- Societe Anglaise Dividend Optimizer - End -->
 ```
 
 ---
@@ -252,7 +252,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Privacy Scorecard - Start -->
+<!-- Societe Anglaise Privacy Scorecard - Start -->
 <div style="position: relative; width: 100%; max-width: 700px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/privacy-scorecard"
@@ -261,15 +261,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Privacy Scorecard - Anonymat fiscal France vs UK"
+    title="Societe Anglaise Privacy Scorecard - Anonymat fiscal France vs UK"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Comparaison confidentialité par <a href="https://britflow.co.uk?ref=widget-privacy" style="color: #10b981; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Comparaison confidentialité par <a href="https://britflow.co.uk?ref=widget-privacy" style="color: #10b981; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Sources OCDE, DAC6, PSC
   </div>
 </div>
-<!-- BritFlow Privacy Scorecard - End -->
+<!-- Societe Anglaise Privacy Scorecard - End -->
 ```
 
 ---
@@ -283,7 +283,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Bank Matchmaker - Start -->
+<!-- Societe Anglaise Bank Matchmaker - Start -->
 <div style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/bank-matchmaker"
@@ -292,15 +292,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Bank Matchmaker - Trouvez votre banque UK idéale"
+    title="Societe Anglaise Bank Matchmaker - Trouvez votre banque UK idéale"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Sélecteur de banques par <a href="https://britflow.co.uk?ref=widget-bank" style="color: #6366f1; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Sélecteur de banques par <a href="https://britflow.co.uk?ref=widget-bank" style="color: #6366f1; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Comparez 9+ banques UK
   </div>
 </div>
-<!-- BritFlow Bank Matchmaker - End -->
+<!-- Societe Anglaise Bank Matchmaker - End -->
 ```
 
 ---
@@ -314,7 +314,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Code d'intégration :**
 
 ```html
-<!-- BritFlow Liquidation Cost Calculator - Start -->
+<!-- Societe Anglaise Liquidation Cost Calculator - Start -->
 <div style="position: relative; width: 100%; max-width: 700px; margin: 0 auto;">
   <iframe
     src="https://britflow.co.uk#embed/liquidation-cost"
@@ -323,15 +323,15 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
     frameborder="0"
     scrolling="no"
     loading="lazy"
-    title="BritFlow Liquidation Cost Calculator - Coût fermeture entreprise"
+    title="Societe Anglaise Liquidation Cost Calculator - Coût fermeture entreprise"
     style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </iframe>
   <div style="margin-top: 8px; text-align: center; font-size: 12px; color: #666;">
-    Calculateur de liquidation par <a href="https://britflow.co.uk?ref=widget-liquidation" style="color: #ef4444; text-decoration: none; font-weight: bold;">BritFlow</a> -
+    Calculateur de liquidation par <a href="https://britflow.co.uk?ref=widget-liquidation" style="color: #ef4444; text-decoration: none; font-weight: bold;">Societe Anglaise</a> -
     Comparaison France vs UK
   </div>
 </div>
-<!-- BritFlow Liquidation Cost Calculator - End -->
+<!-- Societe Anglaise Liquidation Cost Calculator - End -->
 ```
 
 ---
@@ -341,7 +341,7 @@ Pour toute question d'intégration : press@britflow.co.uk (réponse sous 48h ouv
 **Pour ajouter tous les widgets sur une page "Observatoire" personnalisée :**
 
 ```html
-<!-- BritFlow Observatoire - Tous les Widgets -->
+<!-- Societe Anglaise Observatoire - Tous les Widgets -->
 <div class="britflow-observatoire">
 
   <!-- Header -->
@@ -411,7 +411,7 @@ Tous les widgets utilisent l'attribut `loading="lazy"` pour un chargement diffé
 Utilisez `width="100%"` pour que les widgets s'adaptent à la largeur de leur conteneur parent.
 
 ### 3. Attribution
-Le lien retour vers BritFlow est **obligatoire** dans le footer de chaque widget (hardcoded dans l'iframe).
+Le lien retour vers Societe Anglaise est **obligatoire** dans le footer de chaque widget (hardcoded dans l'iframe).
 
 ### 4. Analytics Tracking
 Les widgets utilisent des paramètres UTM pour suivre les sources :
@@ -436,7 +436,7 @@ Les widgets utilisent des paramètres UTM pour suivre les sources :
 Avant de mettre en production, vérifiez :
 
 1. **Le widget s'affiche correctement** sur mobile, tablette et desktop
-2. **Le lien retour** vers BritFlow fonctionne
+2. **Le lien retour** vers Societe Anglaise fonctionne
 3. **Les interactions** (clics, formulaires) fonctionnent
 4. **Le tracking UTM** est bien présent (si applicable)
 5. **Les performances** de la page restent bonnes (< 3s de chargement)
@@ -451,17 +451,17 @@ Avant de mettre en production, vérifiez :
 ### Q : Puis-je modifier la taille des widgets ?
 **R :** Oui, vous pouvez modifier `width` et `height` selon vos besoins. Ne modifiez pas le code source du widget lui-même.
 
-### Q : Le lien retour vers BritFlow est-il obligatoire ?
+### Q : Le lien retour vers Societe Anglaise est-il obligatoire ?
 **R :** Oui, c'est une condition obligatoire de la licence. Les widgets contiennent un lien hardcodé qui ne peut être supprimé.
 
 ### Q : Puis-je utiliser les widgets sur un site payant ?
 **R :** Non, l'usage commercial (payant, abonnement, etc.) est interdit. Contactez-nous pour une licence commerciale : press@britflow.co.uk
 
 ### Q : Comment mesurer l'engagement sur les widgets ?
-**R :** Les widgets envoient des analytics à BritFlow. Pour vos propres stats, utilisez Google Analytics sur votre page et filtrez par `ref=widget-` dans vos rapports.
+**R :** Les widgets envoient des analytics à Societe Anglaise. Pour vos propres stats, utilisez Google Analytics sur votre page et filtrez par `ref=widget-` dans vos rapports.
 
 ### Q : Les widgets mettent-ils à jour les données automatiquement ?
-**R :** Oui, tous les widgets sont connectés aux données BritFlow et se mettent à jour automatiquement sans intervention de votre part.
+**R :** Oui, tous les widgets sont connectés aux données Societe Anglaise et se mettent à jour automatiquement sans intervention de votre part.
 
 ### Q : Puis-je intégrer les widgets dans une app mobile ?
 **R :** Oui, utilisez les mêmes codes iframe dans une WebView. Pour une intégration native, contactez-nous.

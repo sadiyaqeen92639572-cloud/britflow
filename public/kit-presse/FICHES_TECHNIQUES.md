@@ -182,7 +182,7 @@ Total = CT + Salary + Dividend_Tax
 - World Bank : Doing Business 2024
 - Chambre de Commerce France
 - Companies House UK
-- Enquêtes utilisateurs BritFlow (n=500)
+- Enquêtes utilisateurs Societe Anglaise (n=500)
 
 ### Spécifications Techniques
 - Dimensions : 600x400px
@@ -443,7 +443,7 @@ Stratégie 2 - Mix optimale :
 
 ### Sources
 - Sites officiels des banques
-- Enquêtes utilisateurs BritFlow (n=350)
+- Enquêtes utilisateurs Societe Anglaise (n=350)
 - Which? (magazine consommateur UK)
 
 ### Spécifications Techniques

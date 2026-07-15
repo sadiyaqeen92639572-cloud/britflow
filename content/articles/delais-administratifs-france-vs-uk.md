@@ -1,7 +1,7 @@
 ---
 title: "Lenteur Administrative : Pourquoi créer une entreprise en France prend 16 jours (vs 24h au UK)"
 slug: "delais-administratifs-france-vs-uk"
-description: "Analyse des délais administratifs entre la France et le Royaume-Uni. Découvrez comment le Bureaucracy Clock de BritFlow révèle l'inefficacité du modèle français."
+description: "Analyse des délais administratifs entre la France et le Royaume-Uni. Découvrez comment le Bureaucracy Clock de Societe Anglaise révèle l'inefficacité du modèle français."
 date: 2025-01-20
 category: "Administration"
 tags: ["création entreprise", "Kbis", "bureaucratie", "Limited UK"]
@@ -34,7 +34,7 @@ Attendre 16 jours pour un Kbis n'est que la partie émergée de l'iceberg. Ajout
 
 **Résultat ?** Un projet prêt en septembre ne commence réellement qu'en novembre. En deux mois, vos concurrents basés à Londres ont déjà pivoté trois fois et acquis leurs premiers clients.
 
-## La solution BritFlow : L'accélération par la Limited
+## La solution Societe Anglaise : L'accélération par la Limited
 
 En choisissant de structurer une partie ou la totalité de votre activité via une **Limited Company**, vous court-circuitez la lenteur française. 
 
@@ -55,4 +55,4 @@ Si vous avez un projet qui ne peut pas attendre, la diversification territoriale
 **Sources :**
 - World Bank Doing Business Report 2024
 - Companies House Official Statistics 2024
-- Baromètre de l'Efficacité Administrative BritFlow 2025
+- Baromètre de l'Efficacité Administrative Societe Anglaise 2025

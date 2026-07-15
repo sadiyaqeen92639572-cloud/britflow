@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL } from "../../lib/config";
 import { BritTargetAudience } from "../../components/BritTargetAudience";
 
-const TITLE = "BritFlow : Pour qui ? Profils & Stratégies";
+const TITLE = "Societe Anglaise : Pour qui ? Profils & Stratégies";
 const DESCRIPTION = "Solutions sur-mesure pour freelances, PDG et expatriés en quête de souveraineté fiscale.";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default function PourQuiPage() {
     name: TITLE,
     description: DESCRIPTION,
     url: `${SITE_URL}/pour-qui`,
-    isPartOf: { "@type": "WebSite", name: "BritFlow", url: SITE_URL },
+    isPartOf: { "@type": "WebSite", name: "Societe Anglaise", url: SITE_URL },
   };
 
   return (

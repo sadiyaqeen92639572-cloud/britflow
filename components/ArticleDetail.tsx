@@ -316,7 +316,7 @@ const ArticleDetail: React.FC<Props> = ({ article, related }) => {
                     <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/10 rounded-bl-full -mr-16 -mt-16 group-hover:bg-blue-600/20 transition-all"></div>
                     <div className="flex items-center gap-3 mb-4">
                       <i className="fas fa-tower-observation text-blue-500 text-xl"></i>
-                      <span className="text-xs font-black text-blue-500 uppercase tracking-[0.3em]">Observatoire BritFlow 2026</span>
+                      <span className="text-xs font-black text-blue-500 uppercase tracking-[0.3em]">Observatoire Societe Anglaise 2026</span>
                     </div>
                     <div className="text-white font-bold text-lg leading-snug">
                       {calloutContent}

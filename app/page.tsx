@@ -26,7 +26,7 @@ export default function HomePage() {
   const webAppSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "BritFlow - Suite d'Outils Fiscaux UK",
+    name: "Societe Anglaise - Suite d'Outils Fiscaux UK",
     description:
       "14 outils professionnels pour optimiser votre structure Limited UK : audit de substance, protection dirigeant, optimisation fiscale, banking shield.",
     applicationCategory: "BusinessApplication",
@@ -55,7 +55,7 @@ export default function HomePage() {
         </h1>
 
         <p className="text-xl md:text-3xl text-slate-500 max-w-4xl mx-auto leading-tight font-medium mb-16 px-4">
-          <strong>BritFlow</strong> est l&apos;autorité suprême en arbitrage fiscal UK-FR. <br className="hidden md:block" />
+          <strong>Societe Anglaise</strong> est l&apos;autorité suprême en arbitrage fiscal UK-FR. <br className="hidden md:block" />
           Sécurisez votre empire via la puissance de la Common Law.
         </p>
 
@@ -127,7 +127,7 @@ export default function HomePage() {
             <div className="flex flex-col md:flex-row items-end justify-between mb-24">
               <div className="mb-8 md:mb-0">
                 <h2 className="text-7xl md:text-9xl font-black text-slate-900 tracking-tighter uppercase leading-none">Authority <span className="text-blue-600">Vault.</span></h2>
-                <p className="text-slate-500 text-[11px] font-bold uppercase tracking-[0.4em] mt-8">Le savoir stratégique confidentiel BritFlow</p>
+                <p className="text-slate-500 text-[11px] font-bold uppercase tracking-[0.4em] mt-8">Le savoir stratégique confidentiel Societe Anglaise</p>
               </div>
             </div>
 

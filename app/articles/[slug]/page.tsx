@@ -18,9 +18,9 @@ export async function generateMetadata({
   if (!article) return {};
 
   const url = `${SITE_URL}/articles/${article.slug}`;
-  const title = `${article.title} | Expertise BritFlow`;
+  const title = `${article.title} | Expertise Societe Anglaise`;
   return {
-    title: { absolute: title }, // bypass layout's `%s | BritFlow` template — already has its own suffix
+    title: { absolute: title }, // bypass layout's `%s | Societe Anglaise` template — already has its own suffix
     description: article.excerpt,
     keywords: article.keywords,
     alternates: { canonical: url },
@@ -54,7 +54,7 @@ export default async function ArticlePage({
     headline: article.title,
     description: article.excerpt,
     url,
-    author: { "@type": "Organization", name: "BritFlow" },
+    author: { "@type": "Organization", name: "Societe Anglaise" },
   };
 
   const related = article.relatedSlugs

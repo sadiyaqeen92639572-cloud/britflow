@@ -23,7 +23,7 @@ const SEOJsonLd: React.FC<SEOJsonLdProps> = ({
   const schema = customSchema || {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": `${name} - BritFlow`,
+    "name": `${name} - Societe Anglaise`,
     "operatingSystem": "All",
     "applicationCategory": category,
     "description": description,
@@ -35,7 +35,7 @@ const SEOJsonLd: React.FC<SEOJsonLdProps> = ({
     },
     "author": {
       "@type": "Organization",
-      "name": "BritFlow"
+      "name": "Societe Anglaise"
     }
   };
 

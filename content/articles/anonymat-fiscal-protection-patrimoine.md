@@ -46,4 +46,4 @@ Protéger son anonymat n'est pas une question de fraude, c'est une question de *
 **Sources :**
 - Directive Européenne Anti-Blanchiment (AMLD5)
 - Companies House - Privacy & Disclosure Policy
-- BritFlow Privacy Scorecard 2025
+- Societe Anglaise Privacy Scorecard 2025

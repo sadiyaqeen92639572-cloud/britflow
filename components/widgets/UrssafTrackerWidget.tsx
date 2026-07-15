@@ -351,8 +351,8 @@ const UrssafTrackerWidget: React.FC<WidgetProps> = ({ onLoad }) => {
             answer: "Non, mais les statistiques montrent une intensification des contrôles ciblés. La mise en place de structures internationales permet de segmenter les risques et de protéger le cash-flow central contre des mesures de recouvrement forcé type ATD."
           },
           {
-            question: "Est-ce que BritFlow aide en cas de contrôle ?",
-            answer: "BritFlow aide à la stratégie de structuration préventive pour éviter l'exposition. En cas de contrôle en cours, nous conseillons nos clients sur les juridictions de repli et la gestion des flux pour maintenir l'activité."
+            question: "Est-ce que Societe Anglaise aide en cas de contrôle ?",
+            answer: "Societe Anglaise aide à la stratégie de structuration préventive pour éviter l'exposition. En cas de contrôle en cours, nous conseillons nos clients sur les juridictions de repli et la gestion des flux pour maintenir l'activité."
           }
         ]}
       />

@@ -95,7 +95,7 @@ const FAQCollapsible: React.FC<FAQCollapsibleProps> = ({
 
                 <div className="mt-6 text-center">
                     <p className="text-[10px] text-slate-400 italic">
-                        * Ces réponses sont générées par notre base de connaissance juridique BritFlow et validées pour l'année fiscale en cours.
+                        * Ces réponses sont générées par notre base de connaissance juridique Societe Anglaise et validées pour l'année fiscale en cours.
                     </p>
                 </div>
             </div>

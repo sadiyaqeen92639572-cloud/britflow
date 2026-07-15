@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         <div className="pt-10 border-t border-slate-800 text-center text-[9px] font-black uppercase tracking-widest text-slate-600">
           <p>© 2026 BritFlow Strategy Group. 14 Outils de Simulation Interactive.</p>
           <p className="mt-3 normal-case tracking-normal font-medium">
-            BritFlow fait partie de Gesmine-Invest Limited, société immatriculée au Royaume-Uni sous le numéro 14120136, siège social Hardy House, 269 Poynders Gardens, Londres, Royaume-Uni, SW4 8PQ.
+            BritFlow fait partie de Societe Anglaise Ltd, 269 Poynders Gardens, Office 01, Londres, Angleterre, SW4 8PQ.
           </p>
         </div>
       </div>

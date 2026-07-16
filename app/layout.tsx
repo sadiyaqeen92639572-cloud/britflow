@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [`${SITE_URL}/og-image.png`],
   },
+  verification: { google: "EfSgaS8I5hOXrkTBWOcy9ZXDNG4En_fa85U3X-ecQFA" },
 };
 
 const organizationJsonLd = {

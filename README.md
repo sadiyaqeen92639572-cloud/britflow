@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Live at [societeanglaise.fr](https://societeanglaise.fr)
+
+## Free Companion Tools
+
+- [Calculateur Économie IS France vs UK](https://sadiyaqeen92639572-cloud.github.io/economie-impot-societe-france-uk-calculateur/) — simulateur rapide de l'écart d'impôt société France/UK. Propulsé par [Societe Anglaise](https://societeanglaise.fr/outils/optimization).
+
 ## Getting Started
 
 First, run the development server:

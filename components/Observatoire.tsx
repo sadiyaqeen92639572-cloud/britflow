@@ -154,6 +154,7 @@ const Observatoire: React.FC = () => {
           "name": "Baromètre Faillites et Fiscalité France 2025",
           "description": "Données comparatives sur les faillites d'entreprises et la pression fiscale France vs UK. Observatoire indépendant de la compétitivité des entreprises françaises face au modèle anglo-saxon.",
           "url": `${SITE_URL}/observatoire`,
+          "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
           "creator": {
             "@type": "Organization",
             "name": "Societe Anglaise",

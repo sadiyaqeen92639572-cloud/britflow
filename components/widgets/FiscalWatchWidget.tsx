@@ -81,6 +81,7 @@ const FiscalWatchWidget: React.FC<WidgetProps> = ({ onLoad }) => {
     "name": "Baromètre Faillites et Pression Fiscale France 2019-2025",
     "description": "Données statistiques sur la corrélation entre les défaillances d'entreprises et la pression fiscale en France. Source : Banque de France et Insee.",
     "url": `${SITE_URL}/observatoire#sante-financiere`,
+    "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
     "creator": {
       "@type": "Organization",
       "name": "Societe Anglaise - Observatoire"

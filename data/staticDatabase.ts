@@ -47,13 +47,39 @@ const INDUSTRY_TIPS: Record<string, string> = {
     "Autre": "💡 **Conseil Pro :** La flexibilité du droit du travail anglais vous permet d'embaucher et de séparer vos collaborateurs sans risque prud'homal majeur."
 };
 
+// --- BARÈMES IS RÉELS (sourcés, pas de taux flat approximatif) ---
+
+// France — impots.gouv.fr / BOFiP BOI-IS-LIQ-20 : taux réduit 15% jusqu'à 42 500€
+// de bénéfice (PME : CA < 10M€, capital détenu ≥75% par personnes physiques), 25% au-delà.
+const FR_REDUCED_THRESHOLD = 42500;
+const frCorpTax = (profitEur: number): number => {
+    if (profitEur <= FR_REDUCED_THRESHOLD) return profitEur * 0.15;
+    return FR_REDUCED_THRESHOLD * 0.15 + (profitEur - FR_REDUCED_THRESHOLD) * 0.25;
+};
+
+// UK — HMRC Corporation Tax rates (inchangé depuis avril 2023) : 19% (small profits
+// rate) ≤ £50k, 25% (main rate) > £250k, marginal relief entre les deux
+// (tax = profit×25% − (250,000−profit)×3/200). Converti en € via un taux de change
+// approximatif — illustratif, pas un flux FX live.
+const EUR_TO_GBP = 0.86;
+const ukCorpTax = (profitEur: number): number => {
+    const profitGbp = profitEur * EUR_TO_GBP;
+    let taxGbp: number;
+    if (profitGbp <= 50000) taxGbp = profitGbp * 0.19;
+    else if (profitGbp > 250000) taxGbp = profitGbp * 0.25;
+    else taxGbp = profitGbp * 0.25 - (250000 - profitGbp) * (3 / 200);
+    return taxGbp / EUR_TO_GBP;
+};
+
 // --- GÉNÉRATEURS DYNAMIQUES ---
 
 export const generateTaxInsight = (revenue: number, industry: string): string => {
-    // 1. Calculs
-    const isFr = revenue * 0.25; // approx IS France
-    const isUk = revenue * 0.19; // approx IS UK
+    // 1. Calculs — barèmes réels par palier, pas un taux flat (voir frCorpTax/ukCorpTax ci-dessus)
+    const isFr = Math.round(frCorpTax(revenue));
+    const isUk = Math.round(ukCorpTax(revenue));
     const savings = isFr - isUk;
+    const effRateFr = revenue > 0 ? (isFr / revenue) * 100 : 0;
+    const effRateUk = revenue > 0 ? (isUk / revenue) * 100 : 0;
     const opening = TEMPLATES.openings[Math.floor(Math.random() * TEMPLATES.openings.length)];
     const tip = INDUSTRY_TIPS[industry] || INDUSTRY_TIPS["Autre"];
 
@@ -61,18 +87,18 @@ export const generateTaxInsight = (revenue: number, industry: string): string =>
     return `
 ### Analyse Fiscale : Secteur ${industry}
 
-${opening} une structure française classique (SASU/EURL) pénalise votre croissance avec un taux d'IS réel proche de 25%.
+${opening} une structure française classique (SASU/EURL) applique un IS à taux réduit de 15% jusqu'à 42 500€ de bénéfice puis 25% au-delà (barème 2026, impots.gouv.fr).
 
 **Chiffres Clés de votre Simulation :**
-*   **IS Estimé France :** ~${isFr.toLocaleString()}€
-*   **IS Estimé UK (Limited) :** ~${isUk.toLocaleString()}€
+*   **IS Estimé France :** ~${isFr.toLocaleString()}€ (taux effectif ${effRateFr.toFixed(1)}%)
+*   **IS Estimé UK (Limited) :** ~${isUk.toLocaleString()}€ (taux effectif ${effRateUk.toFixed(1)}%, barème HMRC 19%/25% + marginal relief, converti au taux indicatif ${EUR_TO_GBP} £/€)
 *   **Économie Potentielle :** **${savings.toLocaleString()}€ / an**
 
 **Analyse Sectorielle (${industry}) :**
 ${tip}
 
 **Stratégie Recommandée :**
-Créez une **Limited UK** pour facturer vos clients. Vous conservez votre résidence fiscale en France mais logez les profits de l'entreprise dans une juridiction à 19%.
+Créez une **Limited UK** pour facturer vos clients. Vous conservez votre résidence fiscale en France mais logez les profits de l'entreprise dans une juridiction où le taux marginal reste à 25% seulement au-delà de £250k de bénéfice, contre 25% dès 42 500€ en France.
     `;
 };
 

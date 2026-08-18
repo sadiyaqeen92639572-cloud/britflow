@@ -21,7 +21,7 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
   const [currentCA, setCurrentCA] = useState<number>(35000);
   const [projectedGrowth, setProjectedGrowth] = useState<number>(15);
 
-  const SEUIL_FRANCE = 36800;
+  const SEUIL_FRANCE = 37500;
   const SEUIL_UK = 90000; // £90k ≈ €105k
   const TVA_RATE_FR = 0.20;
   const TVA_RATE_UK = 0.20;
@@ -41,7 +41,7 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
 
   const getWhatsAppMessage = () => {
     return encodeURIComponent(
-      `Bonjour, je dépasse le seuil de 36k€. Comment ne pas perdre 20% ?`
+      `Bonjour, je dépasse le seuil de 37.5k€. Comment ne pas perdre 20% ?`
     );
   };
 
@@ -52,12 +52,12 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
         <>
           <SEOJsonLd
             name="TVA Shock Simulator France/UK"
-            description="Simulateur d'impact du dépassement de seuil TVA. France (36.8k€) vs Royaume-Uni (90k£). Calculez vos économies en franchise en base."
+            description="Simulateur d'impact du dépassement de seuil TVA. France (37.5k€) vs Royaume-Uni (90k£). Calculez vos économies en franchise en base."
             category="FinanceApplication"
           />
           <SEOBotContext
             toolName="TVA Shock Simulator"
-            description="VAT threshold modeling tool visualizing the 'Fiscal Cliff' effect when exceeding Micro-Enterprise limits. Compares the French VAT franchise threshold (€36,800) against the UK VAT registration threshold (£90,000 / ~€105,000)."
+            description="VAT threshold modeling tool visualizing the 'Fiscal Cliff' effect when exceeding Micro-Enterprise limits. Compares the French VAT franchise threshold (€37,500, 2026) against the UK VAT registration threshold (£90,000 / ~€105,000)."
             pillars={[
               "Pillar 1: Franchise Threshold Differential (x3 higher in UK)",
               "Pillar 2: Retroactive Tax Shock Simulation (20% impact)",
@@ -315,7 +315,7 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
               <div className="text-xs text-slate-400">
                 <p className="font-bold text-slate-300 mb-2">À savoir :</p>
                 <ul className="space-y-1">
-                  <li>• Le seuil de franchise TVA en France est de 36 800€ (2025)</li>
+                  <li>• Le seuil de franchise TVA en France est de 37 500€ (2026)</li>
                   <li>• Au UK, le seuil est de 90 000£ (~105 000€), soit 3x plus élevé</li>
                   <li>• En cas de dépassement, la TVA est due sur tout le CA (pas uniquement l'excédent)</li>
                   <li>• Des pénalités de retard s'appliquent si la TVA n'est pas déclarée à temps</li>
@@ -364,10 +364,10 @@ const TVAShockSimulator: React.FC<TVAShockSimulatorProps> = ({ mode = 'default',
           <>
             <SEOMethodologyBlock
               methodologyTitle="Méthodologie : Différentiel de Franchise TVA"
-              methodologyText="Le simulateur 'TVA Shock' quantifie le risque fiscal lié au dépassement du seuil de franchise en base de TVA. Il compare le seuil français (36 800€) au seuil britannique (90 000£), mettant en lumière une 'Zone de Profit Sécurisée' (la tranche 36k€-105k€) où l'entrepreneur UK reste exonéré de TVA contrairement à son homologue français, augmentant mécaniquement sa marge nette de 20%."
-              algorithmName="VatGap v2.2"
-              algorithmVersion="v2.2"
-              precision="98% (Taux 2025)"
+              methodologyText="Le simulateur 'TVA Shock' quantifie le risque fiscal lié au dépassement du seuil de franchise en base de TVA. Il compare le seuil français (37 500€, 2026) au seuil britannique (90 000£), mettant en lumière une 'Zone de Profit Sécurisée' (la tranche 37.5k€-105k€) où l'entrepreneur UK reste exonéré de TVA contrairement à son homologue français, augmentant mécaniquement sa marge nette de 20%."
+              algorithmName="VatGap v2.3"
+              algorithmVersion="v2.3"
+              precision="98% (Taux 2026)"
               icon="fa-percentage"
             />
 

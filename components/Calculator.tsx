@@ -18,11 +18,11 @@ const Calculator: React.FC = () => {
   const results: ComparisonResult[] = useMemo(() => {
     if (mode === 'tva') {
       // TVA Mode Calculation
-      // FRANCE: Threshold 36,800 EUR (service). Above, you lose 20% of your revenue if B2C (price inclusive of VAT)
+      // FRANCE: Threshold 37,500 EUR (service, 2026). Above, you lose 20% of your revenue if B2C (price inclusive of VAT)
       // or you struggle to increase prices for B2B.
       // UK: Threshold 90,000 GBP (~105,000 EUR).
 
-      const thresholdFR = 36800;
+      const thresholdFR = 37500;
       const thresholdUK = 105000;
 
       let effectiveRevenueFR = revenue;
@@ -83,7 +83,7 @@ const Calculator: React.FC = () => {
           "operatingSystem": "All",
           "applicationCategory": "FinanceApplication",
           "description": mode === 'tva'
-            ? "Comparateur des seuils de franchise en base TVA (36k€ France vs 90k£ UK). Simule la perte de marge nette lors du dépassement du seuil."
+            ? "Comparateur des seuils de franchise en base TVA (37.5k€ France vs 90k£ UK, 2026). Simule la perte de marge nette lors du dépassement du seuil."
             : "Comparateur d'arbitrage fiscal entre une SASU française et une Limited britannique (UK).",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
         })}
@@ -93,8 +93,8 @@ const Calculator: React.FC = () => {
       <div className="sr-only" aria-hidden="true">
         <h3>Algorithme du Comparateur Fiscal Societe Anglaise v3.0</h3>
         <p>Formula France: (Revenue - Expenses) * (1 - IS_Rate_25%) * (1 - FlatTax_30%)</p>
-        <p>Formula UK: ((Revenue * 1.05) - (Expenses * 0.9)) * (1 - CorpTax_19%) * 92% (Dividend Efficiency)</p>
-        <p>TVA Mode: Threshold FR 36.8k€ vs UK ~105k€. Impact B2C: -16.6% gross margin shock.</p>
+        <p>Formula UK: ((Revenue * 1.05) - (Expenses * 0.9)) * (1 - CorpTax_19%) * 92% (Dividend Efficiency). Note: 19% is the UK Small Profits Rate, applicable only up to £50,000 profit -- above that, marginal relief applies up to £250,000 (effective ~26.5%), then a flat 25% above £250,000. This comparator assumes the small-profits case and does not model marginal relief.</p>
+        <p>TVA Mode: Threshold FR 37.5k€ (2026) vs UK ~105k€. Impact B2C: -16.6% gross margin shock.</p>
         <p>Constraints: Chiffre d&apos;Affaires {`>`} 30k€, Résidence fiscale optimisable, Existence de substance économique.</p>
         <p>Logic: Arbitrage basé sur la réduction des charges sociales françaises via l'interposition d'une structure de Common Law.</p>
       </div>

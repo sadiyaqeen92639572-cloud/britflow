@@ -1,7 +1,7 @@
 ---
 title: "Vous dépassez 36k€ ? Ne perdez pas 20% de marge"
 slug: "seuil-franchise-tva-36k"
-description: "Découvrez comment le dépassement du seuil de franchise TVA à 36 800€ impacte votre marge. Comparaison France vs UK et stratégies pour optimiser votre situation."
+description: "Découvrez comment le dépassement du seuil de franchise TVA à 37 500€ impacte votre marge. Comparaison France vs UK et stratégies pour optimiser votre situation."
 date: 2025-01-08
 category: "TVA"
 tags: ["dépassement seuil franchise TVA", "franchise de base", "TVA intracommunautaire", "auto-entrepreneur", "seuil TVA"]
@@ -9,7 +9,7 @@ tags: ["dépassement seuil franchise TVA", "franchise de base", "TVA intracommun
 
 # Vous dépassez 36k€ ? Ne perdez pas 20% de marge
 
-Félicitations ! Votre activité décolle. Vous approchez ou avez dépassé le seuil de franchise de TVA de 36 800€. C'est la preuve que votre entreprise est en croissance.
+Félicitations ! Votre activité décolle. Vous approchez ou avez dépassé le seuil de franchise de TVA de 37 500€. C'est la preuve que votre entreprise est en croissance.
 
 Mais il y a un problème que personne ne vous dit : **ce seuil est un piège fiscal qui peut réduire votre marge de 15 à 20%.**
 
@@ -20,11 +20,11 @@ Dans cet article, nous allons explorer :
 2. Pourquoi la France est un désavantage compétitif majeur
 3. Comment le Royaume-Uni offre une alternative intelligente
 
-## Le piège du seuil de 36 800€
+## Le piège du seuil de 37 500€
 
 ### Ce que l'on vous dit
 
-"Vous dépassez 36 800€ de CA, donc vous devez facturer la TVA à vos clients."
+"Vous dépassez 37 500€ de CA, donc vous devez facturer la TVA à vos clients."
 
 Simple, non ?
 
@@ -98,10 +98,10 @@ C'est ici que le bât blesse. Le système français désavantage massivement les
 
 | Critère | France | Royaume-Uni |
 |---------|--------|-------------|
-| **Seuil de franchise** | 36 800€ | 90 000£ (~105 000€) |
+| **Seuil de franchise** | 37 500€ | 90 000£ (~105 000€) |
 | **Taux de TVA standard** | 20% | 20% |
 | **Seuil en équivalent** | - | 2,8x plus élevé |
-| **Écart de compétitivité** | - | +68 000€ de marge |
+| **Écart de compétitivité** | - | +67 500€ de marge |
 | **Complexité administrative** | Élevée | Modérée |
 
 ### L'avantage compétitif britannique
@@ -109,7 +109,7 @@ C'est ici que le bât blesse. Le système français désavantage massivement les
 Imaginez : Vous êtes consultant et vous facturez 60 000€ par an.
 
 **En France :**
-- Vous dépassez le seuil de 36 800€
+- Vous dépassez le seuil de 37 500€
 - Vous êtes assujetti à la TVA
 - Vous devez gérer la TVA sur toutes vos factures
 - Coût administratif + perte de marge : ~10 000€/an
@@ -132,8 +132,8 @@ C'est 30 000€ que vous pouvez réinvestir dans votre entreprise, votre épargn
 ### La particularité du statut auto-entrepreneur
 
 Le seuil de franchise de TVA est différent pour les auto-entrepreneurs :
-- **Services/BNC :** 36 800€ (au lieu de 36 200€ pour les autres régimes)
-- **Activités d'achat-vente :** 91 900€
+- **Services/BNC :** 37 500€
+- **Activités d'achat-vente (marchandises) :** 85 000€
 
 Mais attention : Le mécanisme est le même. Dès que vous dépassez ces seuils, vous basculez automatiquement en régime réel de TVA.
 
@@ -231,7 +231,7 @@ Exemple : Sophie, coach d'entreprise, CA annuel 80 000€
 - CA France : 40 000€ (via auto-entreprise française)
 - CA UK : 40 000£ (~46 000€) (via LTD britannique)
 
-En France : Sophie reste sous le seuil de 36 800€ → Pas de TVA
+En France : Sophie reste sous le seuil de 37 500€ → Pas de TVA
 Au Royaume-Uni : Sophie reste sous le seuil de 90 000£ → Pas de TVA
 
 **Résultat :**
@@ -374,7 +374,7 @@ Sans engagement. Sans pression. Juste des chiffres concrets pour vous aider à d
 
 ## Ce que vous devez retenir
 
-1. Le seuil de 36 800€ en France est un piège qui réduit votre marge de 15 à 20%
+1. Le seuil de 37 500€ en France est un piège qui réduit votre marge de 15 à 20%
 2. Le Royaume-Uni offre un seuil 3x plus élevé (105 000€)
 3. La diversification France + UK vous permet de rester en franchise de TVA dans les deux pays
 4. Cette stratégie est légale, éthique et courante
@@ -385,7 +385,7 @@ Sans engagement. Sans pression. Juste des chiffres concrets pour vous aider à d
 
 Regardez votre CA de l'année dernière. Regardez vos prévisions pour cette année.
 
-Si vous approchez ou dépassez 36 800€, vous avez deux choix :
+Si vous approchez ou dépassez 37 500€, vous avez deux choix :
 
 1. Accepter de payer 10 000€ de plus chaque année à l'État
 2. Optimiser intelligemment votre situation avec une structure UK

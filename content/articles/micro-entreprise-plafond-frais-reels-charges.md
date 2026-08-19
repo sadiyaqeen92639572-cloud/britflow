@@ -28,7 +28,7 @@ Contrairement à la SASU française (lourde, coûteuse en comptabilité) ou à l
 
 1.  **Déductibilité Totale :** Ordinateur, abonnement ChatGPT, publicité, voyages d'affaires... tout ce qui est "wholly and exclusively" pour le business est déduit du CA avant impôt.
 2.  **Pas de Seuil Absurde :** Pas de limite de CA qui vous force à changer de régime brutalement.
-3.  **TVA avantageuse :** Le seuil de franchise en base de TVA est à 90 000£ (env. 105 000€), contre seulement 36 800€ en France. Une marge supplémentaire énorme.
+3.  **TVA avantageuse :** Le seuil de franchise en base de TVA est à 90 000£ (env. 105 000€), contre seulement 37 500€ en France. Une marge supplémentaire énorme.
 
 ## Le Crash-Test de votre rentabilité
 

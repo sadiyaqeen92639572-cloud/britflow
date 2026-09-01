@@ -51,7 +51,7 @@ Mode « choc TVA » :
 
 ## Simulateurs de l'Observatoire (`/observatoire`, + embeds dans les articles)
 
-16 widgets React, calcul déterministe côté client, chacun terminé par un CTA WhatsApp. Constantes et barèmes majoritairement millésimés **2024/2025** et parfois simplifiés — à revérifier avant tout usage. Deux d'entre eux (`FiscalWatch`, `UrssafTracker`, `PrivacyScorecard`) n'ont **pas** d'entrée utilisateur : ce sont des graphiques sur données statiques.
+16 widgets React, calcul déterministe côté client, chacun terminé par un CTA WhatsApp. Constantes et barèmes majoritairement millésimés **2024/2025** et parfois simplifiés — à revérifier avant tout usage. Certains (`FiscalWatch`, `UrssafTracker`, `PrivacyScorecard`) n'ont **pas** d'entrée utilisateur : ce sont des graphiques sur données statiques ; `BankMatchmaker` est un simple questionnaire sans calcul.
 
 1. **FiscalWatch** — graphique « défaillances vs indice de pression fiscale », données statiques France : faillites 2019→2025p = 51 145 / 32 184 / 28 351 / 42 500 / 55 435 / 66 045 / 72 000 ; indice de pression fiscale 72 → 87. Publie un JSON-LD `Dataset` (licence Etalab). Le bouton « embed » pointe vers `/outils/fiscal-scanner`.
 2. **UrssafTracker** — carte des régions, montant indicatif de redressement par région (M€) : Île-de-France 580, PACA 320, Auvergne-Rhône-Alpes 280, Hauts-de-France 240, Nouvelle-Aquitaine 210, Grand Est 190, Occitanie 175, Pays de la Loire 160. Seuils de couleur : ≥580 critique, ≥280 élevé, ≥160 modéré, sinon faible. Pas de calcul.

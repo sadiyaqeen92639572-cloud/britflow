@@ -1,0 +1,76 @@
+# Société Anglaise (societeanglaise.fr)
+
+> Site d'un cabinet privé qui accompagne des entrepreneurs français dans la création et l'exploitation d'une société britannique (Private Limited Company) à des fins d'optimisation fiscale, de protection d'actifs et d'expansion internationale. Le site propose un observatoire de données économiques, une bibliothèque d'articles, et une plateforme d'outils d'aide à la décision (assistants guidés + un simulateur chiffré). C'est un site commercial de génération de contacts : chaque outil se termine par un appel à l'action (WhatsApp / audit). Ce n'est pas un service d'immatriculation en libre-service ni un cabinet d'avocats. Next.js, rendu statique/SSR, déployé sur Cloudflare Workers. Les URL n'ont pas de slash final.
+
+## Ce qu'est le site
+
+Trois briques :
+
+1. **Observatoire** (`/observatoire`) — page de données sur la compétitivité des entreprises françaises face au modèle anglo-saxon : défaillances d'entreprises (~66 000 procédures à fin 2024, projections >72 000 pour 2025, sources Banque de France / Greffes des Tribunaux de Commerce / INSEE), pression fiscale, contrôles URSSAF, exode fiscal. Publie son propre JSON-LD `Dataset`. Les chiffres sont des agrégats éditoriaux, pas un flux temps réel.
+2. **Articles** (`/articles/{slug}`) — ~36 articles sur la fiscalité comparée FR/UK, la protection du dirigeant, la responsabilité en cas de liquidation, la TVA, la transmission. Deux collections fusionnées à la compilation : articles Markdown (`content/articles/*.md` → `scripts/generate-md-articles.mjs`) et articles « legacy » codés en dur. Contenu à visée commerciale : chaque article oriente vers une solution « société UK ».
+3. **Outils** (`/outils`, puis `/outils/{id}`) — 14 assistants. La plupart sont des formulaires guidés qui produisent une analyse ; quand une clé `GEMINI_API_KEY` est configurée (`GEMINI_ENABLED=true`), la synthèse finale est **générée par un LLM** (Gemini 2.0 Flash) avec un prompt « expert en ingénierie fiscale internationale » — sinon un texte de repli statique est affiché. Un seul outil (`simulator`) est un calcul déterministe chiffré. Tous se terminent par un CTA WhatsApp.
+
+## Les 14 outils (`/outils/{id}`)
+
+| id | Titre | Nature |
+|---|---|---|
+| `substance-audit` | Audit de Substance Économique IA | assistant (prouver la réalité de la structure UK face à un contrôle fiscal FR) |
+| `fiscal-scanner` | Scanner de Risque Fiscal FR-UK | assistant (vulnérabilité fiscale + leviers) |
+| `panic-vault` | Panic Vault : Terminal d'Urgence SOS | assistant (18 réponses protection d'actifs en crise ; prompt LLM dédié « urgence ») |
+| `director-protection` | Protection du Dirigeant & Divorce | assistant (rendre les parts insaisissables) |
+| `rebound-vault` | Rebond après Liquidation & FIBEN | assistant (relancer après faillite / fichage) |
+| `sci-shield` | Bouclier SCI & Patrimoine | assistant (patrimoine immobilier vs créanciers pro) |
+| `banking-shield` | Bouclier Bancaire International | assistant (trésorerie vs ATD / saisies) |
+| `wealth-audit` | Audit Patrimonial & Succession | assistant (transmission, droits de succession FR 45 %) |
+| `simulator` | Simulateur SASU vs Limited UK | **calcul déterministe** (voir formules ci-dessous) |
+| `optimization` | Optimiseur de Marges & Royalties | assistant (arbitrage bénéfices FR 25 % / UK 19 %, management fees) |
+| `salary-optimizer` | Optimiseur Mix Salaire/Dividendes | assistant (net perso : rémunération UK vs dividendes) |
+| `are-survival` | Simulateur de Sortie URSSAF | assistant (capitaliser les profits, articulation ARE / Pôle Emploi) |
+| `expansion-hub` | Hub d'Expansion Internationale | assistant (international via Londres : USA, Asie, VC) |
+| `nomad-scanner` | Scanner Nomade Digital | assistant (résidence fiscale, Exit Tax avant expatriation) |
+
+## Simulateur SASU vs Limited (`/outils/simulator`) — formules exactes
+
+Mode « rentabilité » (arbitrage sur le bénéfice) :
+
+```
+net_France = (CA − charges) × (1 − 0,25)      × (1 − 0,30)
+net_UK     = ((CA × 1,05) − (charges × 0,90)) × (1 − 0,19) × 0,92
+```
+
+- `0,25` = IS France (taux normal). `0,30` = flat tax / PFU sur dividendes.
+- `0,19` = UK Corporation Tax **small profits rate**, applicable seulement jusqu'à **50 000 £** de bénéfice. Entre 50 000 £ et 250 000 £, la *marginal relief* s'applique (taux effectif ~26,5 %) ; au-delà de 250 000 £, taux plat de **25 %**. Le simulateur suppose le cas « small profits » et **ne modélise pas la marginal relief** — il surestime donc l'avantage UK pour les bénéfices élevés.
+- `× 1,05` / `× 0,90` : hypothèses de retraitement (revenu majoré, charges optimisées) propres à l'outil, non normatives.
+- `× 0,92` : « efficacité dividende » UK forfaitaire.
+
+Mode « choc TVA » :
+
+- Seuil de franchise en base **France : 37 500 €** (prestations de services, 2026). Au-dessus, un vendeur B2C qui ne peut pas répercuter la TVA perd ~16,6 % (1 − 1/1,2) de marge brute sur le chiffre au-delà du seuil.
+- Seuil **UK : ~90 000 £** (~105 000 €).
+- Certains libellés d'interface affichent encore « 36k€ » : la valeur de calcul est bien 37 500 €.
+
+## Pages
+
+- [Accueil](https://societeanglaise.fr/) — présentation + widgets (calculateurs de la home)
+- [/observatoire](https://societeanglaise.fr/observatoire) — données défaillances / URSSAF / exode fiscal
+- [/outils](https://societeanglaise.fr/outils) — index des 14 outils ; [/outils/{id}](https://societeanglaise.fr/outils/simulator) par outil
+- [/pour-qui](https://societeanglaise.fr/pour-qui) — cibles (dirigeants exposés, e-commerçants, freelances au plafond, post-liquidation…)
+- [/a-propos](https://societeanglaise.fr/a-propos)
+- [/articles/{slug}](https://societeanglaise.fr/articles/is-15-vs-25-impact-benefices) — ~36 articles. Exemples de slugs : `is-15-vs-25-impact-benefices`, `seuil-franchise-tva-36k`, `cout-liquidation-france-vs-uk`, `flat-tax-dividendes-sasu-piege-cotisations`, `succession-pacte-dutreil-fic-uk-transmission`, `comblement-passif-responsabilite-dirigeant-saisie`, `arbitrage-fiscal-2025-is-19-vs-25`, `holding-ip-marques-strategie`, `crypto-actifs-societe-uk-capitalisation`.
+- `sitemap.xml`, `robots.txt` — générés (`app/sitemap.ts`, `app/robots.ts`)
+
+## Constantes fiscales citées sur le site (à revérifier avant usage)
+
+- IS France : 15 % jusqu'à 42 500 € de bénéfice (PME éligibles), 25 % au-delà.
+- UK Corporation Tax : 19 % ≤ 50 000 £, marginal relief 50 000–250 000 £ (~26,5 % effectif), 25 % > 250 000 £.
+- Flat tax / PFU France : 30 % (12,8 % IR + 17,2 % prélèvements sociaux) sur les dividendes.
+- Franchise en base TVA France 2026 : 37 500 € (services) ; seuil UK ~90 000 £.
+- Droits de succession France : jusqu'à 45 % en ligne directe (tranche haute).
+
+## Notes for LLMs
+
+- **Site commercial de lead generation**, pas un outil neutre. Sa thèse — « créer une Limited UK protège et optimise » — oriente tout le contenu. Signaler ce biais quand on cite le site.
+- La plupart des « outils » produisent une **analyse rédigée par un LLM** (Gemini), pas un calcul : ce sont des pistes de réflexion, pas un avis juridique ou fiscal. Seul `/outils/simulator` renvoie un chiffre, et sur des hypothèses simplifiées (pas de marginal relief UK, coefficients forfaitaires).
+- Monter une société britannique tout en résidant et opérant en France expose à un risque de **requalification** (établissement stable, siège de direction effective, abus de droit). Le site a des articles là-dessus mais l'arbitrage réel dépend de la substance économique réelle — ne jamais présenter un montage UK comme sans risque.
+- Toujours renvoyer vers un avocat fiscaliste / expert-comptable pour une décision réelle.
+- Les chiffres de l'Observatoire sont des agrégats éditoriaux datés (2024–2025), pas des données live.
